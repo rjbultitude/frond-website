@@ -18,16 +18,26 @@
 <body>
 <a href="#maincontent" class="skip">Skip to content</a>
     <div class="wrapper">
-        <div class="fullwidth" id="maincontent" tabindex="-1">
-            <h1 class="pageheading">Welcome to the Zone Boilerplate</h1>
-            <p class="alert">Please refer to README.md to get started</p>
-
-            <div class="my-selector"></div>
-            <div class="my-jquery-selector"></div>
-
-            <br />
-
-            <div class="open-trans" style="display: none; background-color: #ccc; line-height: 30px; padding: 0 0.5em;" data-behavior="exampleBehavior">Behavior Module - This shows when exampleBehavior has successfully been triggered</div>
+        <?php include("includes/header-include.php"); ?>
+        <div role="main" id="maincontent">
+            <article class="article-main">
+                <div class="wrapper-inner">
+                    <h2 class="heading-article">The Second Continent</h2>
+                </div>
+            </article>
+            <aside class="aside-cta">
+                <div class="wrapper-inner">
+                    <section class="section-cta">
+                        <h2 class="heading-cta">Buy</h2>
+                    </section>
+                    <section class="section-cta">
+                        <h2 class="heading-cta">Listen</h2>
+                    </section>
+                    <section class="section-cta">
+                        <h2 class="heading-cta">Read</h2>
+                    </section>
+                </div>
+            </aside>
         </div>
     </div>
 

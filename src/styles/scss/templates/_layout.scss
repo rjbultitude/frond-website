@@ -16,19 +16,16 @@
     margin: 0 auto;
     padding:$spacing 0;
 }
-
-.fullwidth {
+.wrapper-inner {
 	max-width:em($grid-full-width-pixels);
-	margin:0 auto;
+	margin: 0 auto;
 }
 
-// -------------------------------------------------------------------------- */
-// ---------- Examples ------------------------------------------------------ */
-// -------------------------------------------------------------------------- */
-.mySelector {
-	
-}
+.banner-page {
+	background-color: $color-mint;
 
-.myJQuerySelector {
-	
+	.heading-page {
+		width: 10em;
+		height: 6em;
+	}
 }

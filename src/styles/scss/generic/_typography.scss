@@ -12,8 +12,11 @@
 /* ---------- Imports ------------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
 
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
 
 
+$font-script: 'Pinyon Script', cursive, 'Times New Roman';
+$font-main: 'Libre Baskerville', serif;
 
 /* -------------------------------------------------------------------------- */
 /* ---------- Typography ---------------------------------------------------- */
@@ -21,7 +24,7 @@
 
 body {
     color: $color-grey;
-    font-family: $font-body;
+    font-family: $font-main;
     font-size: $font-size;
     line-height: $line-height-body;
 }
@@ -31,19 +34,29 @@ body {
 /* ---------- Headings ------------------------------------------------------ */
 /* -------------------------------------------------------------------------- */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: $font-heading;
-    line-height: $line-height-heading;
-    margin-bottom: $spacing;
+%heading {
+    font-family: $font-main;
 }
 
-h1 {
-	font-size:2.5em;
+.heading-page {
+    color: $color-blue-dark;
+    text-indent: -999em;
+}
+
+.heading-section {
+
+}
+
+.heading-article {
+
+}
+
+.heading-cta {
+
+    &:first-letter {
+        font-family: $font-script;
+        font-size: 2em;
+    }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -59,17 +72,4 @@ a {
 /* -------------------------------------------------------------------------- */
 
 blockquote {
-}
-
-/* -------------------------------------------------------------------------- */
-/* ---------- Alert --------------------------------------------------------- */
-/* -------------------------------------------------------------------------- */
-
-.alert {
-	padding:$spacing;
-	background:$color-grey;
-	color:white;
-	font-size:1.5em;
-	text-align:center;
-    margin-bottom: $spacing;
 }

@@ -3,14 +3,14 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Richard Bultitude -- Designer / Developer -- @pointbmusic
 
 # THANKS
 
-    <name>
+    Harco of Esc.Rec
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3, SASS, Icon Font
+    HTML5, CSS3, SASS
     jQuery, Modernizr
     Grunt - for modules see package.json
