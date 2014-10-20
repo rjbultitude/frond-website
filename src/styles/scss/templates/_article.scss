@@ -1,0 +1,42 @@
+/**
+* Layout -- part of the Generic Namespace
+*
+* $author       Richard Bultitude
+* $email        richard.bultitude@gmail.com
+* $url          http://www.frondmusic.com/
+* $copyright    Copyright (c) 2014, frondmusic.com. All rights reserved.
+* $version      1.0
+*/
+
+// -------------------------------------------------------------------------- */
+// ---------- article ------------------------------------------------------- */
+// -------------------------------------------------------------------------- */
+
+.article-main {
+	background-color: $color-moss;
+	
+	.wrapper-inner {
+		position: relative;
+	}
+
+	.heading-article {
+		position: absolute;
+		left: em(50, 40);
+		top: em(30, 40);
+		z-index: index($elements, heading) + 10;
+		width: em(160);
+	}
+	
+	.heading-page {
+		width: 10em;
+		height: 6em;
+		position: absolute;
+		right: em(50);
+		top: em(30);
+		z-index: index($elements, heading) + 10;
+
+		.text {
+			@include el-off-screen;
+		}
+	}
+}

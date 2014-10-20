@@ -1,11 +1,52 @@
-.open-trans {
-    overflow:hidden;
-    @include ceaser-transition(height, 500ms, $easeInCirc, 0s);
-    //max-height: 1%;
+// -------------------------------------------------------------------------- */
+// ---------- transitions --------------------------------------------------- */
+// -------------------------------------------------------------------------- */
+
+@mixin standard-transition($duration: 2s, $delay: 0) {
+    transition-timing-function:.17,.67,.83,.67;
+    transition-duration:$duration;
+    transition-delay:$delay;
+    transition-property:all;
 }
 
-.closed-trans {
-    overflow:hidden;
-    @include ceaser-transition(height, 500ms, $easeInCirc, 0s);
-    //max-height: 0;
+@mixin standard-transition-bg-color($duration: 2s, $delay: 0) {
+    transition-timing-function:.17,.67,.83,.67;
+    transition-duration:$duration;
+    transition-delay:$delay;
+    transition-property:background-color,color;
+}
+
+@mixin standard-transition-opacity($duration: 2s, $delay: 0) {
+    transition-timing-function:.17,.67,.83,.67;
+    transition-duration:$duration;
+    transition-delay:$delay;
+    transition-property:opacity;
+}
+
+@mixin standard-transition-bottom($duration: 2s, $delay: 0) {
+    transition-timing-function:.17,.67,.83,.67;
+    transition-duration:$duration;
+    transition-delay:$delay;
+    transition-property:bottom;
+}
+
+@mixin standard-transition-left($duration: 2s, $delay: 0) {
+    transition-timing-function:.17,.67,.83,.67;
+    transition-duration:$duration;
+    transition-delay:$delay;
+    transition-property:left;
+}
+
+@mixin standard-transition-padding($duration: 2s, $delay: 0) {
+    transition-timing-function:.17,.67,.83,.67;
+    transition-duration:$duration;
+    transition-delay:$delay;
+    transition-property:padding-left;
+}
+
+@mixin standard-transition-transform($duration: 2s, $delay: 0) {
+    transition-timing-function:.17,.67,.83,.67;
+    transition-duration:$duration;
+    transition-delay:$delay;
+    transition-property:transform;
 }

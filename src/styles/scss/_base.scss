@@ -1,10 +1,10 @@
 /**
 * Base styles
 *
-* $author       Zone dev
-* $email        frontend@thisiszone.com
-* $url          http://www.thisiszone.com/
-* $copyright    Copyright (c) 2012, thisiszone.com. All rights reserved.
+* $author       Richard Bultitude
+* $email        richard.bultitude@gmail.com
+* $url          http://www.frondmusic.com/
+* $copyright    Copyright (c) 2014, frondmusic.com. All rights reserved.
 * $version      1.0
 */
 
@@ -14,6 +14,7 @@
 
 $color-grey:                          	#999999;
 $color-mint:                          	#83bbb5;
+$color-moss:							#d6e4e2;
 $color-blue-dark:                       #0e3447;
 $color-green-moss:                      #e5eaca;
 $color-blue-grey:                       #3e5d68;
@@ -43,6 +44,6 @@ $spacing:								1em;
 // ---------- Box Sizing Grid -----------------------------------------------
 // -------------------------------------------------------------------------- */
 
-$container-width: 1500px;
-$column-width: 125px;
+$container-width: 1200px;
+$column-width: 100px;
 $gutter: 30px;

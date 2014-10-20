@@ -1,17 +1,17 @@
 /**
 * Global print styles
 *
-* $author       Zone dev
-* $email        frontend@thisiszone.com
-* $url          http://www.thisiszone.com/
-* $copyright    Copyright (c) 2012, thisiszone.com. All rights reserved.
+* $author       Richard Bultitude
+* $email        richard.bultitude@gmail.com
+* $url          http://www.frondmusic.com/
+* $copyright    Copyright (c) 2014, frondmusic.com. All rights reserved.
 * $version      1.0
 */
 /* -------------------------------------------------------------------------- */
 /* ---------- Compass ------------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
 @import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
-/* line 17, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -33,46 +33,46 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+/* line 116, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
@@ -85,10 +85,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /**
 * Base styles
 *
-* $author       Zone dev
-* $email        frontend@thisiszone.com
-* $url          http://www.thisiszone.com/
-* $copyright    Copyright (c) 2012, thisiszone.com. All rights reserved.
+* $author       Richard Bultitude
+* $email        richard.bultitude@gmail.com
+* $url          http://www.frondmusic.com/
+* $copyright    Copyright (c) 2014, frondmusic.com. All rights reserved.
 * $version      1.0
 */
 /* -------------------------------------------------------------------------- */
@@ -97,36 +97,36 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /**
 * Functions -- part of the Utilities Namespace
 *
-* $author       Zone Dev
-* $email        frontend@thisiszone.com
-* $url          http://www.thisiszone.com/
+* $author       Richard Bultitude
+* $email        richard.bultitude@gmail.com
+* $url          http://www.frondmusic.com/
 * $copyright    Copyright (c) 2014, thisiszone.com. All rights reserved.
 */
 /**
 * Lists -- part of the Utilities Namespace
 *
-* $author       Zone dev
-* $email        frontend@thisiszone.com
-* $url          http://www.thisiszone.com/
+* $author       Richard Bultitude
+* $email        richard.bultitude@gmail.com
+* $url          http://www.frondmusic.com/
 * $copyright    Copyright (c) 2014, thisiszone.com. All rights reserved.
 * $version      1.0
 */
 /**
 * Mixins -- part of the Utilities Namespace
 *
-* $author       Zone dev
-* $email        frontend@thisiszone.com
-* $url          http://www.thisiszone.com/
+* $author       Richard Bultitude
+* $email        richard.bultitude@gmail.com
+* $url          http://www.frondmusic.com/
 * $copyright    Copyright (c) 2014, thisiszone.com. All rights reserved.
 * $version      1.2
 */
 /**
 * Placeholders -- part of the Utilities Namespace
 *
-* $author       Zone dev
-* $email        frontend@thisiszone.com
-* $url          http://www.thisiszone.com/
-* $copyright    Copyright (c) 2012, thisiszone.com. All rights reserved.
+* $author       Richard Bultitude
+* $email        richard.bultitude@gmail.com
+* $url          http://www.frondmusic.com/
+* $copyright    Copyright (c) 2014, frondmusic.com. All rights reserved.
 * $version      1.0
 */
 /* -------------------------------------------------------------------------- */
@@ -150,10 +150,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /**
 * Typography -- part of the Generic Namespace
 *
-* $author       Zone dev
-* $email        frontend@thisiszone.com
-* $url          http://www.thisiszone.com/
-* $copyright    Copyright (c) 2012, thisiszone.com. All rights reserved.
+* $author       Richard Bultitude
+* $email        richard.bultitude@gmail.com
+* $url          http://www.frondmusic.com/
+* $copyright    Copyright (c) 2014, frondmusic.com. All rights reserved.
 * $version      1.0
 */
 /* -------------------------------------------------------------------------- */
@@ -176,7 +176,12 @@ body {
 /* line 41, ../scss/generic/_typography.scss */
 .heading-page {
   color: #0e3447;
-  text-indent: -999em;
+}
+
+/* line 49, ../scss/generic/_typography.scss */
+.heading-article {
+  font-size: 2.5em;
+  color: white;
 }
 
 /* line 56, ../scss/generic/_typography.scss */
@@ -194,10 +199,10 @@ body {
 /**
 * Forms -- part of the Generic Namespace
 *
-* $author       Zone dev
-* $email        frontend@thisiszone.com
-* $url          http://www.thisiszone.com/
-* $copyright    Copyright (c) 2012, thisiszone.com. All rights reserved.
+* $author       Richard Bultitude
+* $email        richard.bultitude@gmail.com
+* $url          http://www.frondmusic.com/
+* $copyright    Copyright (c) 2014, frondmusic.com. All rights reserved.
 * $version      1.0
 */
 /* line 11, ../scss/generic/_forms.scss */
@@ -209,28 +214,34 @@ select {
 /**
 * Images -- part of the Generic Namespace
 *
-* $author       Zone dev
-* $email        frontend@thisiszone.com
-* $url          http://www.thisiszone.com/
-* $copyright    Copyright (c) 2012, thisiszone.com. All rights reserved.
+* $author       Richard Bultitude
+* $email        richard.bultitude@gmail.com
+* $url          http://www.frondmusic.com/
+* $copyright    Copyright (c) 2014, frondmusic.com. All rights reserved.
 * $version      1.0
 */
+/* line 11, ../scss/generic/_images.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /**
 * Lists -- part of the Generic Namespace
 *
-* $author       Zone dev
-* $email        frontend@thisiszone.com
-* $url          http://www.thisiszone.com/
-* $copyright    Copyright (c) 2012, thisiszone.com. All rights reserved.
+* $author       Richard Bultitude
+* $email        richard.bultitude@gmail.com
+* $url          http://www.frondmusic.com/
+* $copyright    Copyright (c) 2014, frondmusic.com. All rights reserved.
 * $version      1.0
 */
 /**
 * Buttons -- part of the Generic Namespace
 *
-* $author       Zone dev
-* $email        frontend@thisiszone.com
-* $url          http://www.thisiszone.com/
-* $copyright    Copyright (c) 2012, thisiszone.com. All rights reserved.
+* $author       Richard Bultitude
+* $email        richard.bultitude@gmail.com
+* $url          http://www.frondmusic.com/
+* $copyright    Copyright (c) 2014, frondmusic.com. All rights reserved.
 * $version      1.0
 */
 /* -------------------------------------------------------------------------- */
@@ -241,7 +252,7 @@ select {
 *
 * $author       Dominic da Costa @ Zone
 * $email        ddacosta@thisiszone.com
-* $url          http://www.thisiszone.com/
+* $url          http://www.frondmusic.com/
 * $copyright    Copyright (c) 2013, thisiszone.com. All rights reserved.
 * $version      1.0
 */
@@ -280,61 +291,45 @@ select {
 }
 
 @-webkit-keyframes fadeIn {
-  /* line 73, ../scss/Interactions/_animations.scss */
   from {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
-
-  /* line 76, ../scss/Interactions/_animations.scss */
   to {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 @-moz-keyframes fadeIn {
-  /* line 73, ../scss/Interactions/_animations.scss */
   from {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
-
-  /* line 76, ../scss/Interactions/_animations.scss */
   to {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 @-ms-keyframes fadeIn {
-  /* line 73, ../scss/Interactions/_animations.scss */
   from {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
-
-  /* line 76, ../scss/Interactions/_animations.scss */
   to {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 @keyframes fadeIn {
-  /* line 73, ../scss/Interactions/_animations.scss */
   from {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
-
-  /* line 76, ../scss/Interactions/_animations.scss */
   to {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 /* ---------- Rotate ------------------------------------------------------- */
 /* line 84, ../scss/Interactions/_animations.scss */
 .animate--rotate {
@@ -385,85 +380,61 @@ select {
 }
 
 @-webkit-keyframes rotate {
-  /* line 93, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-
-  /* line 96, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
   }
 }
-
 @-moz-keyframes rotate {
-  /* line 93, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-
-  /* line 96, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
   }
 }
-
 @-ms-keyframes rotate {
-  /* line 93, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-
-  /* line 96, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
   }
 }
-
 @keyframes rotate {
-  /* line 93, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-
-  /* line 96, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
   }
 }
-
 /* ---------- Move Up ------------------------------------------------------- */
 /* line 104, ../scss/Interactions/_animations.scss */
 .animate--move {
@@ -490,101 +461,77 @@ select {
 }
 
 @-webkit-keyframes moveUp {
-  /* line 109, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform: translateY(200px);
     -moz-transform: translateY(200px);
     -ms-transform: translateY(200px);
-    -o-transform: translateY(200px);
+    -webkit-transform: translateY(200px);
     transform: translateY(200px);
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
-
-  /* line 113, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
-    -o-transform: translateY(0);
+    -webkit-transform: translateY(0);
     transform: translateY(0);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 @-moz-keyframes moveUp {
-  /* line 109, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform: translateY(200px);
     -moz-transform: translateY(200px);
     -ms-transform: translateY(200px);
-    -o-transform: translateY(200px);
+    -webkit-transform: translateY(200px);
     transform: translateY(200px);
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
-
-  /* line 113, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
-    -o-transform: translateY(0);
+    -webkit-transform: translateY(0);
     transform: translateY(0);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 @-ms-keyframes moveUp {
-  /* line 109, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform: translateY(200px);
     -moz-transform: translateY(200px);
     -ms-transform: translateY(200px);
-    -o-transform: translateY(200px);
+    -webkit-transform: translateY(200px);
     transform: translateY(200px);
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
-
-  /* line 113, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
-    -o-transform: translateY(0);
+    -webkit-transform: translateY(0);
     transform: translateY(0);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 @keyframes moveUp {
-  /* line 109, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform: translateY(200px);
     -moz-transform: translateY(200px);
     -ms-transform: translateY(200px);
-    -o-transform: translateY(200px);
+    -webkit-transform: translateY(200px);
     transform: translateY(200px);
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
-
-  /* line 113, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
-    -o-transform: translateY(0);
+    -webkit-transform: translateY(0);
     transform: translateY(0);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 /* ---------- Scale Up ------------------------------------------------------ */
 /* line 122, ../scss/Interactions/_animations.scss */
 .animate--scale {
@@ -611,101 +558,77 @@ select {
 }
 
 @-webkit-keyframes scaleUp {
-  /* line 127, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform: scale(0.6, 0.6);
     -moz-transform: scale(0.6, 0.6);
     -ms-transform: scale(0.6, 0.6);
-    -o-transform: scale(0.6, 0.6);
+    -webkit-transform: scale(0.6, 0.6);
     transform: scale(0.6, 0.6);
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
-
-  /* line 131, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: scale(1, 1);
     -moz-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
-    -o-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 @-moz-keyframes scaleUp {
-  /* line 127, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform: scale(0.6, 0.6);
     -moz-transform: scale(0.6, 0.6);
     -ms-transform: scale(0.6, 0.6);
-    -o-transform: scale(0.6, 0.6);
+    -webkit-transform: scale(0.6, 0.6);
     transform: scale(0.6, 0.6);
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
-
-  /* line 131, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: scale(1, 1);
     -moz-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
-    -o-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 @-ms-keyframes scaleUp {
-  /* line 127, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform: scale(0.6, 0.6);
     -moz-transform: scale(0.6, 0.6);
     -ms-transform: scale(0.6, 0.6);
-    -o-transform: scale(0.6, 0.6);
+    -webkit-transform: scale(0.6, 0.6);
     transform: scale(0.6, 0.6);
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
-
-  /* line 131, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: scale(1, 1);
     -moz-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
-    -o-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 @keyframes scaleUp {
-  /* line 127, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform: scale(0.6, 0.6);
     -moz-transform: scale(0.6, 0.6);
     -ms-transform: scale(0.6, 0.6);
-    -o-transform: scale(0.6, 0.6);
+    -webkit-transform: scale(0.6, 0.6);
     transform: scale(0.6, 0.6);
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
   }
-
-  /* line 131, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: scale(1, 1);
     -moz-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
-    -o-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 /* ---------- Fall Perspective ---------------------------------------------- */
 /* line 140, ../scss/Interactions/_animations.scss */
 .animate--fall {
@@ -732,113 +655,81 @@ select {
 }
 
 @-webkit-keyframes fall {
-  /* line 145, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
     -moz-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
     -ms-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
-    -o-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
+    -webkit-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
     transform: translateZ(400px) translateY(300px) rotateX(-90deg);
   }
-
-  /* line 149, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: translateZ(0px) translateY(0px) rotateX(0deg);
     -moz-transform: translateZ(0px) translateY(0px) rotateX(0deg);
     -ms-transform: translateZ(0px) translateY(0px) rotateX(0deg);
-    -o-transform: translateZ(0px) translateY(0px) rotateX(0deg);
+    -webkit-transform: translateZ(0px) translateY(0px) rotateX(0deg);
     transform: translateZ(0px) translateY(0px) rotateX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 @-moz-keyframes fall {
-  /* line 145, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
     -moz-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
     -ms-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
-    -o-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
+    -webkit-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
     transform: translateZ(400px) translateY(300px) rotateX(-90deg);
   }
-
-  /* line 149, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: translateZ(0px) translateY(0px) rotateX(0deg);
     -moz-transform: translateZ(0px) translateY(0px) rotateX(0deg);
     -ms-transform: translateZ(0px) translateY(0px) rotateX(0deg);
-    -o-transform: translateZ(0px) translateY(0px) rotateX(0deg);
+    -webkit-transform: translateZ(0px) translateY(0px) rotateX(0deg);
     transform: translateZ(0px) translateY(0px) rotateX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 @-ms-keyframes fall {
-  /* line 145, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
     -moz-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
     -ms-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
-    -o-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
+    -webkit-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
     transform: translateZ(400px) translateY(300px) rotateX(-90deg);
   }
-
-  /* line 149, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: translateZ(0px) translateY(0px) rotateX(0deg);
     -moz-transform: translateZ(0px) translateY(0px) rotateX(0deg);
     -ms-transform: translateZ(0px) translateY(0px) rotateX(0deg);
-    -o-transform: translateZ(0px) translateY(0px) rotateX(0deg);
+    -webkit-transform: translateZ(0px) translateY(0px) rotateX(0deg);
     transform: translateZ(0px) translateY(0px) rotateX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 @keyframes fall {
-  /* line 145, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
     -moz-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
     -ms-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
-    -o-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
+    -webkit-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
     transform: translateZ(400px) translateY(300px) rotateX(-90deg);
   }
-
-  /* line 149, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: translateZ(0px) translateY(0px) rotateX(0deg);
     -moz-transform: translateZ(0px) translateY(0px) rotateX(0deg);
     -ms-transform: translateZ(0px) translateY(0px) rotateX(0deg);
-    -o-transform: translateZ(0px) translateY(0px) rotateX(0deg);
+    -webkit-transform: translateZ(0px) translateY(0px) rotateX(0deg);
     transform: translateZ(0px) translateY(0px) rotateX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 /* ---------- Fly ----------------------------------------------------------- */
 /* line 158, ../scss/Interactions/_animations.scss */
 .animate--fly {
@@ -865,133 +756,85 @@ select {
 }
 
 @-webkit-keyframes fly {
-  /* line 163, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transform-origin: 50% 50% -300px;
     -moz-transform-origin: 50% 50% -300px;
-    -ms-transform-origin: 50% 50% -300px;
-    -o-transform-origin: 50% 50% -300px;
+    -webkit-transform-origin: 50% 50% -300px;
     transform-origin: 50% 50% -300px;
-    -webkit-transform: rotateX(-180deg);
     -moz-transform: rotateX(-180deg);
-    -ms-transform: rotateX(-180deg);
-    -o-transform: rotateX(-180deg);
+    -webkit-transform: rotateX(-180deg);
     transform: rotateX(-180deg);
   }
-
-  /* line 168, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: rotateX(0deg);
     -moz-transform: rotateX(0deg);
-    -ms-transform: rotateX(0deg);
-    -o-transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
     transform: rotateX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 @-moz-keyframes fly {
-  /* line 163, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transform-origin: 50% 50% -300px;
     -moz-transform-origin: 50% 50% -300px;
-    -ms-transform-origin: 50% 50% -300px;
-    -o-transform-origin: 50% 50% -300px;
+    -webkit-transform-origin: 50% 50% -300px;
     transform-origin: 50% 50% -300px;
-    -webkit-transform: rotateX(-180deg);
     -moz-transform: rotateX(-180deg);
-    -ms-transform: rotateX(-180deg);
-    -o-transform: rotateX(-180deg);
+    -webkit-transform: rotateX(-180deg);
     transform: rotateX(-180deg);
   }
-
-  /* line 168, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: rotateX(0deg);
     -moz-transform: rotateX(0deg);
-    -ms-transform: rotateX(0deg);
-    -o-transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
     transform: rotateX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 @-ms-keyframes fly {
-  /* line 163, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transform-origin: 50% 50% -300px;
     -moz-transform-origin: 50% 50% -300px;
-    -ms-transform-origin: 50% 50% -300px;
-    -o-transform-origin: 50% 50% -300px;
+    -webkit-transform-origin: 50% 50% -300px;
     transform-origin: 50% 50% -300px;
-    -webkit-transform: rotateX(-180deg);
     -moz-transform: rotateX(-180deg);
-    -ms-transform: rotateX(-180deg);
-    -o-transform: rotateX(-180deg);
+    -webkit-transform: rotateX(-180deg);
     transform: rotateX(-180deg);
   }
-
-  /* line 168, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: rotateX(0deg);
     -moz-transform: rotateX(0deg);
-    -ms-transform: rotateX(0deg);
-    -o-transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
     transform: rotateX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 @keyframes fly {
-  /* line 163, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transform-origin: 50% 50% -300px;
     -moz-transform-origin: 50% 50% -300px;
-    -ms-transform-origin: 50% 50% -300px;
-    -o-transform-origin: 50% 50% -300px;
+    -webkit-transform-origin: 50% 50% -300px;
     transform-origin: 50% 50% -300px;
-    -webkit-transform: rotateX(-180deg);
     -moz-transform: rotateX(-180deg);
-    -ms-transform: rotateX(-180deg);
-    -o-transform: rotateX(-180deg);
+    -webkit-transform: rotateX(-180deg);
     transform: rotateX(-180deg);
   }
-
-  /* line 168, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: rotateX(0deg);
     -moz-transform: rotateX(0deg);
-    -ms-transform: rotateX(0deg);
-    -o-transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
     transform: rotateX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 /* ---------- Flip ---------------------------------------------------------- */
 /* line 177, ../scss/Interactions/_animations.scss */
 .animate--flip {
@@ -1018,133 +861,97 @@ select {
 }
 
 @-webkit-keyframes flip {
-  /* line 182, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transform-origin: 0% 0%;
     -moz-transform-origin: 0% 0%;
     -ms-transform-origin: 0% 0%;
-    -o-transform-origin: 0% 0%;
+    -webkit-transform-origin: 0% 0%;
     transform-origin: 0% 0%;
-    -webkit-transform: rotateX(-80deg);
     -moz-transform: rotateX(-80deg);
     -ms-transform: rotateX(-80deg);
-    -o-transform: rotateX(-80deg);
+    -webkit-transform: rotateX(-80deg);
     transform: rotateX(-80deg);
   }
-
-  /* line 187, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: rotateX(0deg);
     -moz-transform: rotateX(0deg);
     -ms-transform: rotateX(0deg);
-    -o-transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
     transform: rotateX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 @-moz-keyframes flip {
-  /* line 182, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transform-origin: 0% 0%;
     -moz-transform-origin: 0% 0%;
     -ms-transform-origin: 0% 0%;
-    -o-transform-origin: 0% 0%;
+    -webkit-transform-origin: 0% 0%;
     transform-origin: 0% 0%;
-    -webkit-transform: rotateX(-80deg);
     -moz-transform: rotateX(-80deg);
     -ms-transform: rotateX(-80deg);
-    -o-transform: rotateX(-80deg);
+    -webkit-transform: rotateX(-80deg);
     transform: rotateX(-80deg);
   }
-
-  /* line 187, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: rotateX(0deg);
     -moz-transform: rotateX(0deg);
     -ms-transform: rotateX(0deg);
-    -o-transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
     transform: rotateX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 @-ms-keyframes flip {
-  /* line 182, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transform-origin: 0% 0%;
     -moz-transform-origin: 0% 0%;
     -ms-transform-origin: 0% 0%;
-    -o-transform-origin: 0% 0%;
+    -webkit-transform-origin: 0% 0%;
     transform-origin: 0% 0%;
-    -webkit-transform: rotateX(-80deg);
     -moz-transform: rotateX(-80deg);
     -ms-transform: rotateX(-80deg);
-    -o-transform: rotateX(-80deg);
+    -webkit-transform: rotateX(-80deg);
     transform: rotateX(-80deg);
   }
-
-  /* line 187, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: rotateX(0deg);
     -moz-transform: rotateX(0deg);
     -ms-transform: rotateX(0deg);
-    -o-transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
     transform: rotateX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 @keyframes flip {
-  /* line 182, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transform-origin: 0% 0%;
     -moz-transform-origin: 0% 0%;
     -ms-transform-origin: 0% 0%;
-    -o-transform-origin: 0% 0%;
+    -webkit-transform-origin: 0% 0%;
     transform-origin: 0% 0%;
-    -webkit-transform: rotateX(-80deg);
     -moz-transform: rotateX(-80deg);
     -ms-transform: rotateX(-80deg);
-    -o-transform: rotateX(-80deg);
+    -webkit-transform: rotateX(-80deg);
     transform: rotateX(-80deg);
   }
-
-  /* line 187, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: rotateX(0deg);
     -moz-transform: rotateX(0deg);
     -ms-transform: rotateX(0deg);
-    -o-transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
     transform: rotateX(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 /* ---------- Helix --------------------------------------------------------- */
 /* line 196, ../scss/Interactions/_animations.scss */
 .animate--helix {
@@ -1171,113 +978,73 @@ select {
 }
 
 @-webkit-keyframes helix {
-  /* line 201, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transform: rotateY(-180deg);
     -moz-transform: rotateY(-180deg);
-    -ms-transform: rotateY(-180deg);
-    -o-transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
   }
-
-  /* line 205, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: rotateY(0deg);
     -moz-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
-    -o-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 @-moz-keyframes helix {
-  /* line 201, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transform: rotateY(-180deg);
     -moz-transform: rotateY(-180deg);
-    -ms-transform: rotateY(-180deg);
-    -o-transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
   }
-
-  /* line 205, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: rotateY(0deg);
     -moz-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
-    -o-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 @-ms-keyframes helix {
-  /* line 201, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transform: rotateY(-180deg);
     -moz-transform: rotateY(-180deg);
-    -ms-transform: rotateY(-180deg);
-    -o-transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
   }
-
-  /* line 205, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: rotateY(0deg);
     -moz-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
-    -o-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 @keyframes helix {
-  /* line 201, ../scss/Interactions/_animations.scss */
   from {
-    -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transform: rotateY(-180deg);
     -moz-transform: rotateY(-180deg);
-    -ms-transform: rotateY(-180deg);
-    -o-transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
   }
-
-  /* line 205, ../scss/Interactions/_animations.scss */
   to {
-    -webkit-transform: rotateY(0deg);
     -moz-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
-    -o-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 /* ---------- FullHouse ----------------------------------------------------- */
 /* line 214, ../scss/Interactions/_animations.scss */
 .animate--fullhouse {
@@ -1304,170 +1071,126 @@ select {
 }
 
 @-webkit-keyframes fullhouse {
-  /* line 219, ../scss/Interactions/_animations.scss */
   0% {
-    -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transform: scale(0.4, 0.4);
     -moz-transform: scale(0.4, 0.4);
     -ms-transform: scale(0.4, 0.4);
-    -o-transform: scale(0.4, 0.4);
+    -webkit-transform: scale(0.4, 0.4);
     transform: scale(0.4, 0.4);
   }
-
-  /* line 223, ../scss/Interactions/_animations.scss */
   70% {
-    -webkit-transform: scale(1.1, 1.1);
     -moz-transform: scale(1.1, 1.1);
     -ms-transform: scale(1.1, 1.1);
-    -o-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1);
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     opacity: 0.8;
     -webkit-animation-timing-function: ease-out;
   }
-
-  /* line 228, ../scss/Interactions/_animations.scss */
   100% {
-    -webkit-transform: scale(1, 1);
     -moz-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
-    -o-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 @-moz-keyframes fullhouse {
-  /* line 219, ../scss/Interactions/_animations.scss */
   0% {
-    -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transform: scale(0.4, 0.4);
     -moz-transform: scale(0.4, 0.4);
     -ms-transform: scale(0.4, 0.4);
-    -o-transform: scale(0.4, 0.4);
+    -webkit-transform: scale(0.4, 0.4);
     transform: scale(0.4, 0.4);
   }
-
-  /* line 223, ../scss/Interactions/_animations.scss */
   70% {
-    -webkit-transform: scale(1.1, 1.1);
     -moz-transform: scale(1.1, 1.1);
     -ms-transform: scale(1.1, 1.1);
-    -o-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1);
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     opacity: 0.8;
     -webkit-animation-timing-function: ease-out;
   }
-
-  /* line 228, ../scss/Interactions/_animations.scss */
   100% {
-    -webkit-transform: scale(1, 1);
     -moz-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
-    -o-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 @-ms-keyframes fullhouse {
-  /* line 219, ../scss/Interactions/_animations.scss */
   0% {
-    -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transform: scale(0.4, 0.4);
     -moz-transform: scale(0.4, 0.4);
     -ms-transform: scale(0.4, 0.4);
-    -o-transform: scale(0.4, 0.4);
+    -webkit-transform: scale(0.4, 0.4);
     transform: scale(0.4, 0.4);
   }
-
-  /* line 223, ../scss/Interactions/_animations.scss */
   70% {
-    -webkit-transform: scale(1.1, 1.1);
     -moz-transform: scale(1.1, 1.1);
     -ms-transform: scale(1.1, 1.1);
-    -o-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1);
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     opacity: 0.8;
     -webkit-animation-timing-function: ease-out;
   }
-
-  /* line 228, ../scss/Interactions/_animations.scss */
   100% {
-    -webkit-transform: scale(1, 1);
     -moz-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
-    -o-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 @keyframes fullhouse {
-  /* line 219, ../scss/Interactions/_animations.scss */
   0% {
-    -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transform: scale(0.4, 0.4);
     -moz-transform: scale(0.4, 0.4);
     -ms-transform: scale(0.4, 0.4);
-    -o-transform: scale(0.4, 0.4);
+    -webkit-transform: scale(0.4, 0.4);
     transform: scale(0.4, 0.4);
   }
-
-  /* line 223, ../scss/Interactions/_animations.scss */
   70% {
-    -webkit-transform: scale(1.1, 1.1);
     -moz-transform: scale(1.1, 1.1);
     -ms-transform: scale(1.1, 1.1);
-    -o-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1);
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     opacity: 0.8;
     -webkit-animation-timing-function: ease-out;
   }
-
-  /* line 228, ../scss/Interactions/_animations.scss */
   100% {
-    -webkit-transform: scale(1, 1);
     -moz-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
-    -o-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 }
-
 /* -------------------------------------------------------------------------- */
 /* ---------- Furniture ----------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
 /**
 * Header
 *
-* $author       Zone dev
-* $email        frontend@thisiszone.com
-* $url          http://www.thisiszone.com/
+* $author       Richard Bultitude
+* $email        richard.bultitude@gmail.com
+* $url          http://www.frondmusic.com/
 * $copyright    Copyright (c) 2014, thisiszone.com. All rights reserved.
 * $version      1.0
 */
@@ -1484,13 +1207,28 @@ select {
   margin-left: 0;
 }
 
+/* line 22, ../scss/furniture/_header.scss */
+.banner-page {
+  background-color: #83bbb5;
+}
+/* line 25, ../scss/furniture/_header.scss */
+.banner-page .heading-page {
+  width: 10em;
+  height: 6em;
+}
+/* line 29, ../scss/furniture/_header.scss */
+.banner-page .heading-page .text {
+  position: absolute;
+  left: -999em;
+}
+
 /**
 * Footer
 *
-* $author       Zone dev
-* $email        frontend@thisiszone.com
-* $url          http://www.thisiszone.com/
-* $copyright    Copyright (c) 2012, thisiszone.com. All rights reserved.
+* $author       Richard Bultitude
+* $email        richard.bultitude@gmail.com
+* $url          http://www.frondmusic.com/
+* $copyright    Copyright (c) 2014, frondmusic.com. All rights reserved.
 * $version      1.0
 */
 /* -------------------------------------------------------------------------- */
@@ -1499,30 +1237,29 @@ select {
 /**
 * Layout -- part of the Generic Namespace
 *
-* $author       Zone dev
-* $email        frontend@thisiszone.com
-* $url          http://www.thisiszone.com/
-* $copyright    Copyright (c) 2012, thisiszone.com. All rights reserved.
+* $author       Richard Bultitude
+* $email        richard.bultitude@gmail.com
+* $url          http://www.frondmusic.com/
+* $copyright    Copyright (c) 2014, frondmusic.com. All rights reserved.
 * $version      1.0
 */
 /* line 15, ../scss/templates/_layout.scss */
-.wrapper {
-  margin: 0 auto;
-  padding: 1em 0;
+*,
+body,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-/* line 19, ../scss/templates/_layout.scss */
+/* line 23, ../scss/templates/_layout.scss */
+.wrapper {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* line 27, ../scss/templates/_layout.scss */
 .wrapper-inner {
   max-width: 60em;
   margin: 0 auto;
-}
-
-/* line 24, ../scss/templates/_layout.scss */
-.banner-page {
-  background-color: #83bbb5;
-}
-/* line 27, ../scss/templates/_layout.scss */
-.banner-page .heading-page {
-  width: 10em;
-  height: 6em;
 }

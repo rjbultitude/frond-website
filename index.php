@@ -18,11 +18,20 @@
 <body>
 <a href="#maincontent" class="skip">Skip to content</a>
     <div class="wrapper">
-        <?php include("includes/header-include.php"); ?>
         <div role="main" id="maincontent">
             <article class="article-main">
                 <div class="wrapper-inner">
+                    <?php include("includes/logo-include.php"); ?>
                     <h2 class="heading-article">The Second Continent</h2>
+                    <div class="image-seq">
+                        <img src="/images/tape-seq/tape-package-1.jpg" alt="" class="image" />
+                        <img src="/images/tape-seq/tape-package-2.jpg" alt="" class="image" />
+                        <img src="/images/tape-seq/tape-package-3.jpg" alt="" class="image" />
+                        <img src="/images/tape-seq/tape-package-4.jpg" alt="" class="image" />
+                        <img src="/images/tape-seq/tape-package-5.jpg" alt="" class="image" />
+                        <img src="/images/tape-seq/tape-package-6.jpg" alt="" class="image" />
+                        <img src="/images/tape-seq/tape-package-7.jpg" alt="" class="image" />
+                    </div>
                 </div>
             </article>
             <aside class="aside-cta">

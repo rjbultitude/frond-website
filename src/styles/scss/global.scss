@@ -1,10 +1,10 @@
 /**
 * Global styles
 *
-* $author       Zone dev
-* $email        frontend@thisiszone.com
-* $url          http://www.thisiszone.com/
-* $copyright    Copyright (c) 2012, thisiszone.com. All rights reserved.
+* $author       Richard Bultitude
+* $email        richard.bultitude@gmail.com
+* $url          http://www.frondmusic.com/
+* $copyright    Copyright (c) 2014, frondmusic.com. All rights reserved.
 * $version      1.0
 */
 
@@ -37,6 +37,11 @@
 @import "utilities/_placeholders.scss";
 
 /* -------------------------------------------------------------------------- */
+/* ---------- Interactions -------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+@import "interactions/_transitions.scss";
+
+/* -------------------------------------------------------------------------- */
 /* ---------- Generic ------------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
 @import "generic/_typography.scss";
@@ -60,3 +65,6 @@
 /* ---------- Templates ----------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
 @import "templates/_layout.scss";
+@import "templates/_article.scss";
+@import "templates/_aside-cta.scss";
+@import "templates/_image-seq.scss";
