@@ -47,15 +47,21 @@ body {
 }
 
 .heading-article {
-    font-size: em(40);
+    font-size: em(24);
     color: white;
+    text-align: center;
 }
 
 .heading-cta {
+    color: $color-blue-dark;
+    font-size: em(28);
+    line-height: 1.8em;
+    text-align: center;
 
     &:first-letter {
         font-family: $font-script;
         font-size: 2em;
+        transform: translateY(em(8));
     }
 }
 

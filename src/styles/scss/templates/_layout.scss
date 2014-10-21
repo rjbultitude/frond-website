@@ -20,11 +20,15 @@ body,
    box-sizing: border-box;
 }
 
-.wrapper {
-    margin: 0 auto;
-    padding: 0;
+body {
+	background: url('/images/texture.gif');
 }
+
 .wrapper-inner {
-	max-width:em($grid-full-width-pixels);
+	max-width: em($grid-full-width-pixels);
 	margin: 0 auto;
+}
+
+#maincontent {
+	@extend %flow-in-grid;
 }

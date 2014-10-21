@@ -95,6 +95,29 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* ---------- Utilities ----------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
 /**
+* sematic Fluid Grid -- part of the utilities Namespace
+*
+* Based on Semantic.gs for LESS: http://lesscss.org/
+*
+* $author       Richard Bultitude
+* $email        richard.bultitude@gmail.com
+* $url          http://www.frondmusic.com/
+* $copyright    Copyright (c) 2014, frondmusic.com. All rights reserved.
+* $version      1.0
+*/
+/* line 29, ../scss/utilities/_semantic-fluid-grid.scss */
+body {
+  width: 100%;
+}
+
+/* line 96, ../scss/utilities/_semantic-fluid-grid.scss */
+#maincontent, .article-main, .aside-cta {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+
+/**
 * Functions -- part of the Utilities Namespace
 *
 * $author       Richard Bultitude
@@ -183,14 +206,23 @@ body {
 
 /* line 49, ../scss/generic/_typography.scss */
 .heading-article {
-  font-size: 2.5em;
+  font-size: 1.5em;
   color: white;
+  text-align: center;
 }
 
-/* line 56, ../scss/generic/_typography.scss */
+/* line 55, ../scss/generic/_typography.scss */
+.heading-cta {
+  color: #0e3447;
+  font-size: 1.75em;
+  line-height: 1.8em;
+  text-align: center;
+}
+/* line 61, ../scss/generic/_typography.scss */
 .heading-cta:first-letter {
   font-family: "Pinyon Script", cursive, "Times New Roman";
   font-size: 2em;
+  transform: translateY(0.5em);
 }
 
 /* -------------------------------------------------------------------------- */
@@ -1256,14 +1288,13 @@ body,
 }
 
 /* line 23, ../scss/templates/_layout.scss */
-.wrapper {
-  margin: 0 auto;
-  padding: 0;
+body {
+  background: url("/images/texture.gif");
 }
 
 /* line 27, ../scss/templates/_layout.scss */
 .wrapper-inner {
-  max-width: 60em;
+  max-width: 63em;
   margin: 0 auto;
 }
 
@@ -1278,33 +1309,77 @@ body,
 */
 /* line 15, ../scss/templates/_article.scss */
 .article-main {
-  background-color: #d6e4e2;
+  position: relative;
 }
-/* line 18, ../scss/templates/_article.scss */
+/* line 20, ../scss/templates/_article.scss */
 .article-main .wrapper-inner {
   position: relative;
 }
-/* line 22, ../scss/templates/_article.scss */
-.article-main .heading-article {
-  position: absolute;
-  left: 1.25em;
-  top: 0.75em;
-  z-index: 14;
-  width: 10em;
+/* line 24, ../scss/templates/_article.scss */
+.article-main .header-article {
+  margin-top: 2.25em;
+  margin-bottom: 2.25em;
 }
 /* line 30, ../scss/templates/_article.scss */
 .article-main .heading-page {
-  width: 10em;
   height: 6em;
-  position: absolute;
-  right: 3.125em;
-  top: 1.875em;
-  z-index: 14;
+  text-align: center;
+  margin: 0.75em 0;
 }
-/* line 38, ../scss/templates/_article.scss */
+/* line 35, ../scss/templates/_article.scss */
+.article-main .heading-page svg {
+  display: inline-block;
+  width: 10em;
+}
+/* line 40, ../scss/templates/_article.scss */
+.article-main .heading-page path {
+  fill: #0e3447;
+  text-shadow: 0 0 3px 4px #0e3447;
+}
+/* line 47, ../scss/templates/_article.scss */
 .article-main .heading-page .text {
   position: absolute;
   left: -999em;
+}
+/* line 52, ../scss/templates/_article.scss */
+.article-main .heading-article {
+  color: #0e3447;
+  padding: 0.125em 0;
+  border-top: 2px solid #0e3447;
+  border-bottom: 2px solid #0e3447;
+  width: 12em;
+  margin: 0 auto;
+}
+/* line 62, ../scss/templates/_article.scss */
+.article-main .body-article {
+  display: inline;
+  float: left;
+  width: 40.47619%;
+  margin-right: 0.59524%;
+  margin-left: 0.59524%;
+  *width: 40.42619%;
+  *margin: 0 0.54524%;
+  margin-left: 8.92857%;
+  *margin-left: 8.87857%;
+  margin-right: 0.59524%;
+  *margin-right: 0.54524%;
+  padding: 0.75em 0;
+}
+/* line 68, ../scss/templates/_article.scss */
+.article-main .meta-article {
+  display: inline;
+  float: left;
+  width: 40.47619%;
+  margin-right: 0.59524%;
+  margin-left: 0.59524%;
+  *width: 40.42619%;
+  *margin: 0 0.54524%;
+  margin-left: 0.59524%;
+  *margin-left: 0.54524%;
+  margin-right: 8.92857%;
+  *margin-right: 8.87857%;
+  padding: 0.75em 0;
+  text-align: right;
 }
 
 /**
@@ -1316,15 +1391,106 @@ body,
 * $copyright    Copyright (c) 2014, frondmusic.com. All rights reserved.
 * $version      1.0
 */
-/* line 16, ../scss/templates/_aside-cta.scss */
+/* line 15, ../scss/templates/_aside-cta.scss */
+.aside-cta {
+  padding: 0.75em 0;
+}
+/* line 19, ../scss/templates/_aside-cta.scss */
 .aside-cta .section-cta {
+  display: inline;
   float: left;
-  padding: 0 15px;
-  width: 33.33333%;
+  width: 23.80952%;
+  margin-right: 0.59524%;
+  margin-left: 0.59524%;
+  *width: 23.75952%;
+  *margin: 0 0.54524%;
+  background-color: #e5eaca;
+  box-shadow: inset 0 -5px 20px 10px #d8e0b0;
+  border-radius: 0.25em;
+}
+@media all and (max-width: 28.125em) {
+  /* line 19, ../scss/templates/_aside-cta.scss */
+  .aside-cta .section-cta {
+    display: inline;
+    float: left;
+    width: 48.80952%;
+    margin-right: 0.59524%;
+    margin-left: 0.59524%;
+    *width: 48.75952%;
+    *margin: 0 0.54524%;
+    margin-left: 25.59524%;
+    *margin-left: 25.54524%;
+    margin-right: 25.59524%;
+    *margin-right: 25.54524%;
+    margin-bottom: 0.75em;
+  }
+}
+/* line 31, ../scss/templates/_aside-cta.scss */
+.aside-cta .section-cta:first-child {
+  display: inline;
+  float: left;
+  width: 23.80952%;
+  margin-right: 0.59524%;
+  margin-left: 0.59524%;
+  *width: 23.75952%;
+  *margin: 0 0.54524%;
+  margin-left: 8.92857%;
+  *margin-left: 8.87857%;
+  margin-right: 0.59524%;
+  *margin-right: 0.54524%;
+}
+/* line 35, ../scss/templates/_aside-cta.scss */
+.aside-cta .section-cta:last-child {
+  display: inline;
+  float: left;
+  width: 23.80952%;
+  margin-right: 0.59524%;
+  margin-left: 0.59524%;
+  *width: 23.75952%;
+  *margin: 0 0.54524%;
+  margin-left: 0.59524%;
+  *margin-left: 0.54524%;
+  margin-right: 8.92857%;
+  *margin-right: 8.87857%;
+}
+/* line 39, ../scss/templates/_aside-cta.scss */
+.aside-cta .link-cta {
+  display: block;
+  text-decoration: none;
+  min-height: 8em;
+  padding: 1.25em 0 0 0;
+}
+/* line 45, ../scss/templates/_aside-cta.scss */
+.aside-cta .link-cta .text-aux {
+  display: block;
+  transition-timing-function: cubic-bezier(0.03, 0.74, 0.43, 0.95);
+  transition-duration: 2s;
+  transition-delay: 0;
+  transition-property: all;
+  opacity: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.75em;
+  color: white;
+  transform: translateY(40px);
+  text-shadow: 0 0 2px rgba(14, 52, 71, 0.3);
+}
+/* line 59, ../scss/templates/_aside-cta.scss */
+.aside-cta .link-cta:focus .text-aux, .aside-cta .link-cta:hover .text-aux {
+  transition-timing-function: cubic-bezier(0.03, 0.74, 0.43, 0.95);
+  transition-duration: 2s;
+  transition-delay: 0;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.03, 0.74, 0.43, 0.95);
+  transition-duration: 2s;
+  transition-delay: 0;
+  transition-property: transform;
+  opacity: 1;
+  transform: translateX(0);
 }
 
 /**
-* Image seq -- part of the Generic Namespace
+* Image seq -- part of the Templates Namespace
 *
 * $author       Richard Bultitude
 * $email        richard.bultitude@gmail.com
@@ -1348,43 +1514,43 @@ body,
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition-timing-function: .17,.67,.83,.67;
-  transition-duration: 2s;
-  transition-delay: 0;
-  transition-property: opacity;
 }
-/* line 34, ../scss/templates/_image-seq.scss */
+/* line 33, ../scss/templates/_image-seq.scss */
 .image-seq img:nth-child(1n) {
   z-index: 1;
 }
-/* line 34, ../scss/templates/_image-seq.scss */
+/* line 33, ../scss/templates/_image-seq.scss */
 .image-seq img:nth-child(2n) {
   z-index: 2;
 }
-/* line 34, ../scss/templates/_image-seq.scss */
+/* line 33, ../scss/templates/_image-seq.scss */
 .image-seq img:nth-child(3n) {
   z-index: 3;
 }
-/* line 34, ../scss/templates/_image-seq.scss */
+/* line 33, ../scss/templates/_image-seq.scss */
 .image-seq img:nth-child(4n) {
   z-index: 4;
 }
-/* line 34, ../scss/templates/_image-seq.scss */
+/* line 33, ../scss/templates/_image-seq.scss */
 .image-seq img:nth-child(5n) {
   z-index: 5;
 }
-/* line 34, ../scss/templates/_image-seq.scss */
+/* line 33, ../scss/templates/_image-seq.scss */
 .image-seq img:nth-child(6n) {
   z-index: 6;
 }
-/* line 34, ../scss/templates/_image-seq.scss */
+/* line 33, ../scss/templates/_image-seq.scss */
 .image-seq img:nth-child(7n) {
   z-index: 7;
 }
-/* line 39, ../scss/templates/_image-seq.scss */
+/* line 38, ../scss/templates/_image-seq.scss */
 .image-seq img.active,
 .image-seq img:first-child {
   opacity: 1;
+  transition-timing-function: cubic-bezier(0.8, 0.01, 0.57, 0.88);
+  transition-duration: 2s;
+  transition-delay: 0;
+  transition-property: opacity;
 }
 /* line 44, ../scss/templates/_image-seq.scss */
 .image-seq img.inactive {

@@ -67,8 +67,10 @@ define(['jquery'], function($){
                         var el = $(this);
                         setTimeout(function() {
                             if (i + 1 === numImages) {
-                                console.log(true);
-                                hideImages();
+                                el.removeClass('inactive').addClass('active');
+                                setTimeout(function() {
+                                    hideImages();
+                                },3000);
                             } 
                             else {
                                 el.removeClass('inactive').addClass('active');

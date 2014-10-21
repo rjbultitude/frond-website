@@ -13,6 +13,7 @@
 // -------------------------------------------------------------------------- */
 
 $color-grey:                          	#999999;
+$color-beige:							#ebe7de;
 $color-mint:                          	#83bbb5;
 $color-moss:							#d6e4e2;
 $color-blue-dark:                       #0e3447;
@@ -31,19 +32,19 @@ $line-height-heading:                   1;
 
 
 // -------------------------------------------------------------------------- */
-// ---------- Grid ---------------------------------------------------------- */
+// ---------- Semantic Grid ------------------------------------------------- */
 // -------------------------------------------------------------------------- */
 
-$grid-num-columns:                      12;
-$grid-width-columns:                    60;
-$grid-width-gutter:                     20;
+$grid-num-columns:                      24;
+$grid-width-columns:                    30;
+$grid-width-gutter:                     12;
 $grid-full-width-pixels:				$grid-width-columns * $grid-num-columns + $grid-width-gutter * $grid-num-columns;
-$spacing:								1em;
+$spacing:								12;
 
 // --------------------------------------------------------------------------
 // ---------- Box Sizing Grid -----------------------------------------------
 // -------------------------------------------------------------------------- */
 
 $container-width: 1200px;
-$column-width: 100px;
+$column-width: 50px;
 $gutter: 30px;

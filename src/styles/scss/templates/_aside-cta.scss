@@ -13,7 +13,55 @@
 // -------------------------------------------------------------------------- */
 
 .aside-cta {
+	padding: em($spacing) 0;
+	@extend %flow-in-grid;
+	
 	.section-cta {
-		@include col(4);
+		@include column(6);
+		background-color: $color-green-moss;
+		box-shadow: inset 0 -5px 20px 10px darken($color-green-moss, 7%);
+		border-radius: em(4);
+
+		@media all and (max-width: em(450)) {
+			@include column-spread(6,12,6);
+			margin-bottom: em($spacing)
+		}
+	}
+
+	.section-cta:first-child {
+		@include column-spread(2,6,0);
+	}
+
+	.section-cta:last-child {
+		@include column-spread(0,6,2);
+	}
+
+	.link-cta {
+		display: block;
+		text-decoration: none;
+		min-height: 8em;
+		padding: em(20) 0 0 0;
+
+		.text-aux {
+			display: block;
+			@include standard-transition(2s, 0, $cubic-bezier-fast-in);
+			opacity: 0;
+			width: 100%;
+			text-align: center;
+			font-size: em(28);
+			color: white;
+			transform: translateY(40px);
+			text-shadow: 0 0 2px rgba($color-blue-dark, .3);
+		}
+
+		&:focus,
+		&:hover {
+			.text-aux {
+				@include standard-transition-opacity(2s, 0, $cubic-bezier-fast-in);
+				@include standard-transition-transform(2s, 0, $cubic-bezier-fast-in);
+				opacity: 1;
+				transform: translateX(0);
+			}
+		}
 	}
 }

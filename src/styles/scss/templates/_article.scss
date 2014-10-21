@@ -13,30 +13,65 @@
 // -------------------------------------------------------------------------- */
 
 .article-main {
-	background-color: $color-moss;
+
+	@extend %flow-in-grid;
+	position: relative;
 	
 	.wrapper-inner {
 		position: relative;
 	}
 
-	.heading-article {
-		position: absolute;
-		left: em(50, 40);
-		top: em(30, 40);
-		z-index: index($elements, heading) + 10;
-		width: em(160);
+	.header-article {
+		//@extend %flow-in-grid;
+		margin-top: em($spacing * 3);
+		margin-bottom: em($spacing * 3);
 	}
-	
+
 	.heading-page {
-		width: 10em;
 		height: 6em;
-		position: absolute;
-		right: em(50);
-		top: em(30);
-		z-index: index($elements, heading) + 10;
+		text-align: center;
+		margin: em($spacing) 0;
+
+		svg {
+			display: inline-block;
+			width: 10em;
+		}
+
+		path {
+			fill: $color-blue-dark;
+			//fill: white;
+			text-shadow: 0 0 3px 4px rgba($color-blue-dark, 20%);
+
+		}
 
 		.text {
 			@include el-off-screen;
 		}
 	}
+
+	.heading-article {
+		//float: left;
+		color: $color-blue-dark;
+		padding: em(2) 0;
+		border-top: 2px solid $color-blue-dark;
+		border-bottom: 2px solid $color-blue-dark;
+		width: 12em;
+		margin: 0 auto;
+	}
+
+	.body-article {
+		@include column-spread(2, 10, 0);
+		padding: em($spacing) 0;
+
+	}
+
+	.meta-article {
+		@include column-spread(0, 10, 2);
+		padding: em($spacing) 0;
+		text-align: right;
+		// position: absolute;
+		// bottom: $spacing;
+		// left: 0; 
+	}
+	
 }
