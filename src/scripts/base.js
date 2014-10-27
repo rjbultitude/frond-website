@@ -4,7 +4,7 @@
  * $author       Richard Bultitude
  * $email        richard.bultitude@gmail.com
  * $url          http://www.frondmusic.com/
- * $copyright    Copyright (c) 2013, thisiszone.com. All rights reserved.
+ * $copyright    Copyright (c) 2013, frondmusic.com. All rights reserved.
  * $version      1.0
  *
  * $notes        Notes

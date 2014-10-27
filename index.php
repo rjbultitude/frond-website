@@ -21,22 +21,34 @@
         <article class="article-main">
             <div class="wrapper-inner">
                 <?php include("includes/header-include.php"); ?>
-                <div class="image-seq">
-                    <img src="/images/tape-seq/tape-package-1.jpg" alt="" />
-                    <img src="/images/tape-seq/tape-package-2.jpg" alt="" />
-                    <img src="/images/tape-seq/tape-package-3.jpg" alt="" />
-                    <img src="/images/tape-seq/tape-package-4.jpg" alt="" />
-                    <img src="/images/tape-seq/tape-package-5.jpg" alt="" />
-                    <img src="/images/tape-seq/tape-package-6.jpg" alt="" />
-                    <img src="/images/tape-seq/tape-package-7.jpg" alt="" />
+            </div>
+            <figure class="figure-article">
+                <div class="wrapper-inner">
+                    <div class="wrapper-image-seq">
+                        <div class="image-seq">
+                            <img src="/images/tape-seq/tape-package-1.jpg" alt="" />
+                            <img src="/images/tape-seq/tape-package-2.jpg" alt="" />
+                            <img src="/images/tape-seq/tape-package-3.jpg" alt="" />
+                            <img src="/images/tape-seq/tape-package-4.jpg" alt="" />
+                            <img src="/images/tape-seq/tape-package-5.jpg" alt="" />
+                            <img src="/images/tape-seq/tape-package-6.jpg" alt="" />
+                            <img src="/images/tape-seq/tape-package-7.jpg" alt="" />
+                        </div>
+                    </div>
                 </div>
-                <div class="body-article">
-                    <p>The Seond Continent is the debut album from producer and phonographer Frond. 
-                    It journey's through a sonic landscape of forgotten melodies and vivid textures.</p>
-                </div>
-                <div class="meta-article">
-                    <p>Available on MP3/MC</p>
-                    <p>on Esc.Rec</p>
+            </figure>
+            <div class="article-copy">
+                <div class="wrapper-inner">
+                    <h2 class="heading-section">The Second Continent</h2>
+                    <div class="body-article">
+                        <p>This full length album is the debut album from producer and phonographer Frond.</p>
+                        <p>It is also marks the begining of Frond's relationship with prolific Dutch label Esc.Rec.</p>
+                        <p>It journey's through a sonic landscape of forgotten melodies and vivid textures.</p>
+                    </div>
+                    <div class="meta-article">
+                        <p>Available on MP3/MC</p>
+                        <p>on Esc.Rec</p>
+                    </div>
                 </div>
             </div>
         </article>

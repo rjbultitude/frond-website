@@ -44,7 +44,7 @@ $cubic-bezier-fast-in: .03,.74,.43,.95;
     transition-timing-function: cubic-bezier($timing);
     transition-duration:$duration;
     transition-delay:$delay;
-    transition-property:padding-left;
+    transition-property:padding;
 }
 
 @mixin standard-transition-transform($duration: 2s, $delay: 0, $timing: $cubic-bezier-slow-in) {

@@ -13,7 +13,7 @@
 // -------------------------------------------------------------------------- */
 
 .aside-cta {
-	padding: em($spacing) 0;
+	padding: 0 0 em($spacing) 0;
 	@extend %flow-in-grid;
 	
 	.section-cta {
@@ -29,18 +29,20 @@
 	}
 
 	.section-cta:first-child {
-		@include column-spread(2,6,0);
+		@include column-spread(3,6,0);
 	}
 
 	.section-cta:last-child {
-		@include column-spread(0,6,2);
+		@include column-spread(0,6,3);
 	}
 
 	.link-cta {
 		display: block;
 		text-decoration: none;
 		min-height: 8em;
-		padding: em(20) 0 0 0;
+		padding: em(38) 0 0 0;
+		@include standard-transition-padding(2s, 0, $cubic-bezier-fast-in);
+		overflow: hidden;
 
 		.text-aux {
 			display: block;
@@ -56,6 +58,9 @@
 
 		&:focus,
 		&:hover {
+			padding-top: em(20);
+			@include standard-transition-padding(2s, 0, $cubic-bezier-fast-in);
+
 			.text-aux {
 				@include standard-transition-opacity(2s, 0, $cubic-bezier-fast-in);
 				@include standard-transition-transform(2s, 0, $cubic-bezier-fast-in);

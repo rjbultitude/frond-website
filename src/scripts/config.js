@@ -4,7 +4,7 @@
     * $author       Richard Bultitude
     * $email        richard.bultitude@gmail.com
     * $url          http://www.frondmusic.com/
-    * $copyright    Copyright (c) 2013, thisiszone.com. All rights reserved.
+    * $copyright    Copyright (c) 2013, frondmusic.com. All rights reserved.
     * $version      1.0
     *
     * $notes        Notes
@@ -20,9 +20,11 @@ require.config({
         //If IE8 support is required switch to jquery 1.11.0
         jquery: 'libs/jquery',
 
+        // modules
+        imagesLoadedMod: 'plugins/imagesloaded.pkgd',
+
         // Plugins
-        velocity: 'plugins/jquery.imageseq.plugin',
-        imageSeq: 'plugins/velocity',
+        imageSeq: 'plugins/jquery.imageseq.plugin'
     }
 
 });
@@ -31,13 +33,15 @@ require.config({
 /* ---------- Initialize app ------------------------------------------------ */
 /* -------------------------------------------------------------------------- */
 
-require(['jquery', 'base', 'velocity', 'imageSeq'], function($, base) {
+require(['jquery', 'base', 'imagesLoadedMod', 'imageSeq'], function($, base, imagesLoaded) {
     'use strict';
 
     /* ---------- Global modules -------------------------------------------- */
     base.init();
 
     /* ---------- Plugins --------------------------------------------------- */
-    //initialise jQuery plugin
-    $('.image-seq').JQueryImgSeqPlugin();
+    imagesLoaded( '.image-seq', function() {
+        console.log('images are loaded');
+        $('.image-seq').JQueryImgSeqPlugin();
+    });
 });

@@ -21,6 +21,11 @@
 		position: relative;
 	}
 
+	.figure-article {
+		background-color: rgba(white, 0.4);
+		@extend %flow-in-grid;
+	}
+
 	.header-article {
 		//@extend %flow-in-grid;
 		margin-top: em($spacing * 3);
@@ -59,19 +64,23 @@
 		margin: 0 auto;
 	}
 
+	.article-copy {
+		padding: em($spacing*3) 0;
+		@extend %flow-in-grid;
+
+		.heading-section {
+			@include column-spread(4, 16, 4);
+		}
+	}
+
 	.body-article {
-		@include column-spread(2, 10, 0);
-		padding: em($spacing) 0;
+		@include column-spread(4, 11, 0);
 
 	}
 
 	.meta-article {
-		@include column-spread(0, 10, 2);
-		padding: em($spacing) 0;
+		@include column-spread(0, 5, 4);
 		text-align: right;
-		// position: absolute;
-		// bottom: $spacing;
-		// left: 0; 
 	}
 	
 }

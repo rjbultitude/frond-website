@@ -111,7 +111,7 @@ body {
 }
 
 /* line 96, ../scss/utilities/_semantic-fluid-grid.scss */
-#maincontent, .article-main, .aside-cta {
+#maincontent, .article-main, .article-main .figure-article, .article-main .article-copy, .aside-cta {
   display: inline;
   float: left;
   width: 100%;
@@ -190,7 +190,7 @@ body {
 /* -------------------------------------------------------------------------- */
 /* line 25, ../scss/generic/_typography.scss */
 body {
-  color: #999999;
+  color: #45433D;
   font-family: "Libre Baskerville", serif;
   font-size: 16px;
   line-height: 1.35;
@@ -204,25 +204,44 @@ body {
   color: #0e3447;
 }
 
-/* line 49, ../scss/generic/_typography.scss */
+/* line 45, ../scss/generic/_typography.scss */
+.heading-section {
+  font-size: 1.5em;
+  margin-bottom: 0.75em;
+}
+
+/* line 50, ../scss/generic/_typography.scss */
 .heading-article {
   font-size: 1.5em;
   color: white;
   text-align: center;
 }
 
-/* line 55, ../scss/generic/_typography.scss */
+/* line 56, ../scss/generic/_typography.scss */
 .heading-cta {
   color: #0e3447;
   font-size: 1.75em;
   line-height: 1.8em;
   text-align: center;
 }
-/* line 61, ../scss/generic/_typography.scss */
+/* line 62, ../scss/generic/_typography.scss */
 .heading-cta:first-letter {
   font-family: "Pinyon Script", cursive, "Times New Roman";
   font-size: 2em;
   transform: translateY(0.5em);
+}
+
+/* -------------------------------------------------------------------------- */
+/* ---------- Paragraphs ---------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* line 72, ../scss/generic/_typography.scss */
+p {
+  font-size: 0.9em;
+}
+
+/* line 76, ../scss/generic/_typography.scss */
+p + p {
+  margin-top: 0.75em;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -288,7 +307,7 @@ img {
 * $author       Dominic da Costa @ Zone
 * $email        ddacosta@thisiszone.com
 * $url          http://www.frondmusic.com/
-* $copyright    Copyright (c) 2013, thisiszone.com. All rights reserved.
+* $copyright    Copyright (c) 2013, frondmusic.com. All rights reserved.
 * $version      1.0
 */
 /* -------------------------------------------------------------------------- */
@@ -1316,32 +1335,36 @@ body {
   position: relative;
 }
 /* line 24, ../scss/templates/_article.scss */
+.article-main .figure-article {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+/* line 29, ../scss/templates/_article.scss */
 .article-main .header-article {
   margin-top: 2.25em;
   margin-bottom: 2.25em;
 }
-/* line 30, ../scss/templates/_article.scss */
+/* line 35, ../scss/templates/_article.scss */
 .article-main .heading-page {
   height: 6em;
   text-align: center;
   margin: 0.75em 0;
 }
-/* line 35, ../scss/templates/_article.scss */
+/* line 40, ../scss/templates/_article.scss */
 .article-main .heading-page svg {
   display: inline-block;
   width: 10em;
 }
-/* line 40, ../scss/templates/_article.scss */
+/* line 45, ../scss/templates/_article.scss */
 .article-main .heading-page path {
   fill: #0e3447;
   text-shadow: 0 0 3px 4px #0e3447;
 }
-/* line 47, ../scss/templates/_article.scss */
+/* line 52, ../scss/templates/_article.scss */
 .article-main .heading-page .text {
   position: absolute;
   left: -999em;
 }
-/* line 52, ../scss/templates/_article.scss */
+/* line 57, ../scss/templates/_article.scss */
 .article-main .heading-article {
   color: #0e3447;
   padding: 0.125em 0;
@@ -1350,35 +1373,51 @@ body {
   width: 12em;
   margin: 0 auto;
 }
-/* line 62, ../scss/templates/_article.scss */
+/* line 67, ../scss/templates/_article.scss */
+.article-main .article-copy {
+  padding: 2.25em 0;
+}
+/* line 71, ../scss/templates/_article.scss */
+.article-main .article-copy .heading-section {
+  display: inline;
+  float: left;
+  width: 65.47619%;
+  margin-right: 0.59524%;
+  margin-left: 0.59524%;
+  *width: 65.42619%;
+  *margin: 0 0.54524%;
+  margin-left: 17.2619%;
+  *margin-left: 17.2119%;
+  margin-right: 17.2619%;
+  *margin-right: 17.2119%;
+}
+/* line 76, ../scss/templates/_article.scss */
 .article-main .body-article {
   display: inline;
   float: left;
-  width: 40.47619%;
+  width: 44.64286%;
   margin-right: 0.59524%;
   margin-left: 0.59524%;
-  *width: 40.42619%;
+  *width: 44.59286%;
   *margin: 0 0.54524%;
-  margin-left: 8.92857%;
-  *margin-left: 8.87857%;
+  margin-left: 17.2619%;
+  *margin-left: 17.2119%;
   margin-right: 0.59524%;
   *margin-right: 0.54524%;
-  padding: 0.75em 0;
 }
-/* line 68, ../scss/templates/_article.scss */
+/* line 81, ../scss/templates/_article.scss */
 .article-main .meta-article {
   display: inline;
   float: left;
-  width: 40.47619%;
+  width: 19.64286%;
   margin-right: 0.59524%;
   margin-left: 0.59524%;
-  *width: 40.42619%;
+  *width: 19.59286%;
   *margin: 0 0.54524%;
   margin-left: 0.59524%;
   *margin-left: 0.54524%;
-  margin-right: 8.92857%;
-  *margin-right: 8.87857%;
-  padding: 0.75em 0;
+  margin-right: 17.2619%;
+  *margin-right: 17.2119%;
   text-align: right;
 }
 
@@ -1393,7 +1432,7 @@ body {
 */
 /* line 15, ../scss/templates/_aside-cta.scss */
 .aside-cta {
-  padding: 0.75em 0;
+  padding: 0 0 0.75em 0;
 }
 /* line 19, ../scss/templates/_aside-cta.scss */
 .aside-cta .section-cta {
@@ -1434,8 +1473,8 @@ body {
   margin-left: 0.59524%;
   *width: 23.75952%;
   *margin: 0 0.54524%;
-  margin-left: 8.92857%;
-  *margin-left: 8.87857%;
+  margin-left: 13.09524%;
+  *margin-left: 13.04524%;
   margin-right: 0.59524%;
   *margin-right: 0.54524%;
 }
@@ -1450,17 +1489,22 @@ body {
   *margin: 0 0.54524%;
   margin-left: 0.59524%;
   *margin-left: 0.54524%;
-  margin-right: 8.92857%;
-  *margin-right: 8.87857%;
+  margin-right: 13.09524%;
+  *margin-right: 13.04524%;
 }
 /* line 39, ../scss/templates/_aside-cta.scss */
 .aside-cta .link-cta {
   display: block;
   text-decoration: none;
   min-height: 8em;
-  padding: 1.25em 0 0 0;
+  padding: 2.375em 0 0 0;
+  transition-timing-function: cubic-bezier(0.03, 0.74, 0.43, 0.95);
+  transition-duration: 2s;
+  transition-delay: 0;
+  transition-property: padding;
+  overflow: hidden;
 }
-/* line 45, ../scss/templates/_aside-cta.scss */
+/* line 47, ../scss/templates/_aside-cta.scss */
 .aside-cta .link-cta .text-aux {
   display: block;
   transition-timing-function: cubic-bezier(0.03, 0.74, 0.43, 0.95);
@@ -1476,6 +1520,14 @@ body {
   text-shadow: 0 0 2px rgba(14, 52, 71, 0.3);
 }
 /* line 59, ../scss/templates/_aside-cta.scss */
+.aside-cta .link-cta:focus, .aside-cta .link-cta:hover {
+  padding-top: 1.25em;
+  transition-timing-function: cubic-bezier(0.03, 0.74, 0.43, 0.95);
+  transition-duration: 2s;
+  transition-delay: 0;
+  transition-property: padding;
+}
+/* line 64, ../scss/templates/_aside-cta.scss */
 .aside-cta .link-cta:focus .text-aux, .aside-cta .link-cta:hover .text-aux {
   transition-timing-function: cubic-bezier(0.03, 0.74, 0.43, 0.95);
   transition-duration: 2s;
@@ -1499,14 +1551,28 @@ body {
 * $version      1.0
 */
 /* line 15, ../scss/templates/_image-seq.scss */
+.wrapper-image-seq {
+  display: inline;
+  float: left;
+  width: 73.80952%;
+  margin-right: 0.59524%;
+  margin-left: 0.59524%;
+  *width: 73.75952%;
+  *margin: 0 0.54524%;
+  margin-left: 13.09524%;
+  *margin-left: 13.04524%;
+  margin-right: 13.09524%;
+  *margin-right: 13.04524%;
+}
+
+/* line 19, ../scss/templates/_image-seq.scss */
 .image-seq {
   position: relative;
-  padding-bottom: 56.25%;
-  /* 16:9 */
-  padding-top: 25px;
+  padding-bottom: 75%;
+  /* 4:3 */
   height: 0;
 }
-/* line 21, ../scss/templates/_image-seq.scss */
+/* line 24, ../scss/templates/_image-seq.scss */
 .image-seq img {
   position: absolute;
   top: 0;
@@ -1515,35 +1581,35 @@ body {
   height: 100%;
   opacity: 0;
 }
-/* line 33, ../scss/templates/_image-seq.scss */
+/* line 36, ../scss/templates/_image-seq.scss */
 .image-seq img:nth-child(1n) {
   z-index: 1;
 }
-/* line 33, ../scss/templates/_image-seq.scss */
+/* line 36, ../scss/templates/_image-seq.scss */
 .image-seq img:nth-child(2n) {
   z-index: 2;
 }
-/* line 33, ../scss/templates/_image-seq.scss */
+/* line 36, ../scss/templates/_image-seq.scss */
 .image-seq img:nth-child(3n) {
   z-index: 3;
 }
-/* line 33, ../scss/templates/_image-seq.scss */
+/* line 36, ../scss/templates/_image-seq.scss */
 .image-seq img:nth-child(4n) {
   z-index: 4;
 }
-/* line 33, ../scss/templates/_image-seq.scss */
+/* line 36, ../scss/templates/_image-seq.scss */
 .image-seq img:nth-child(5n) {
   z-index: 5;
 }
-/* line 33, ../scss/templates/_image-seq.scss */
+/* line 36, ../scss/templates/_image-seq.scss */
 .image-seq img:nth-child(6n) {
   z-index: 6;
 }
-/* line 33, ../scss/templates/_image-seq.scss */
+/* line 36, ../scss/templates/_image-seq.scss */
 .image-seq img:nth-child(7n) {
   z-index: 7;
 }
-/* line 38, ../scss/templates/_image-seq.scss */
+/* line 41, ../scss/templates/_image-seq.scss */
 .image-seq img.active,
 .image-seq img:first-child {
   opacity: 1;
@@ -1552,7 +1618,7 @@ body {
   transition-delay: 0;
   transition-property: opacity;
 }
-/* line 44, ../scss/templates/_image-seq.scss */
+/* line 47, ../scss/templates/_image-seq.scss */
 .image-seq img.inactive {
   opacity: 0;
 }
