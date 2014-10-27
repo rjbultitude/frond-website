@@ -33,6 +33,10 @@
                             <img src="/images/tape-seq/tape-package-5.jpg" alt="" />
                             <img src="/images/tape-seq/tape-package-6.jpg" alt="" />
                             <img src="/images/tape-seq/tape-package-7.jpg" alt="" />
+                            <div class="meta-article">
+                                <p>Available on MP3/MC</p>
+                                <p>on Esc.Rec</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -41,13 +45,8 @@
                 <div class="wrapper-inner">
                     <h2 class="heading-section">The Second Continent</h2>
                     <div class="body-article">
-                        <p>This full length album is the debut album from producer and phonographer Frond.</p>
-                        <p>It is also marks the begining of Frond's relationship with prolific Dutch label Esc.Rec.</p>
+                        <p>This full length album is the debut album from producer and phonographer Frond. It is also marks the begining of Frond's relationship with prolific Dutch label Esc.Rec.</p>
                         <p>It journey's through a sonic landscape of forgotten melodies and vivid textures.</p>
-                    </div>
-                    <div class="meta-article">
-                        <p>Available on MP3/MC</p>
-                        <p>on Esc.Rec</p>
                     </div>
                 </div>
             </div>
@@ -74,6 +73,12 @@
                 </section>
             </div>
         </aside>
+    </div>
+    <div class="footer">
+        <div class="wrapper-inner">
+            <p class="copyright">Copyright Frond 2014</p>
+            <a href="http://twitter.com/pointbmusic" class="link link-sm">@pointbmusic</a>
+        </div>
     </div>
 
     <script data-main="src/scripts/config" src="src/scripts/libs/require.js"></script>

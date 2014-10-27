@@ -13,7 +13,7 @@
 // -------------------------------------------------------------------------- */
 
 .aside-cta {
-	padding: 0 0 em($spacing) 0;
+	padding: 0 0 em($spacing*3) 0;
 	@extend %flow-in-grid;
 	
 	.section-cta {
@@ -22,7 +22,7 @@
 		box-shadow: inset 0 -5px 20px 10px darken($color-green-moss, 7%);
 		border-radius: em(4);
 
-		@media all and (max-width: em(450)) {
+		@media all and (max-width: em(600)) {
 			@include column-spread(6,12,6);
 			margin-bottom: em($spacing)
 		}
@@ -30,10 +30,20 @@
 
 	.section-cta:first-child {
 		@include column-spread(3,6,0);
+
+		@media all and (max-width: em(600)) {
+			@include column-spread(6,12,6);
+			margin-bottom: em($spacing)
+		}
 	}
 
 	.section-cta:last-child {
 		@include column-spread(0,6,3);
+
+		@media all and (max-width: em(600)) {
+			@include column-spread(6,12,6);
+			margin-bottom: em($spacing)
+		}
 	}
 
 	.link-cta {
@@ -56,6 +66,7 @@
 			text-shadow: 0 0 2px rgba($color-blue-dark, .3);
 		}
 
+		&.active,
 		&:focus,
 		&:hover {
 			padding-top: em(20);

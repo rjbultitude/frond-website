@@ -1,0 +1,40 @@
+/**
+* Footer -- part of the template Namespace
+*
+* $author       Richard Bultitude
+* $email        richard.bultitude@gmail.com
+* $url          http://www.frondmusic.com/
+* $copyright    Copyright (c) 2014, frondmusic.com. All rights reserved.
+* $version      1.0
+*/
+
+// -------------------------------------------------------------------------- */
+// ---------- article ------------------------------------------------------- */
+// -------------------------------------------------------------------------- */
+
+.footer {
+	padding: em($spacing*3) 0;
+	@extend %flow-in-grid;
+	border-top: 1px $color-blue-dark solid;
+	background-color: $translucent-white;
+
+	.copyright {
+		@include column-spread(3,9,0);
+
+		@media all and (max-width: em(600)) {
+			@include column-spread(1,22,1);
+			margin-bottom: em(12);
+			text-align: center;
+		}
+	}
+
+	.link-sm {
+		@include column-spread(0,9,3);
+		text-align: right;
+
+		@media all and (max-width: em(600)) {
+			@include column-spread(1,22,1);
+			text-align: center;
+		}
+	}
+}

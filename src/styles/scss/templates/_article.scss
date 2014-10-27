@@ -22,7 +22,7 @@
 	}
 
 	.figure-article {
-		background-color: rgba(white, 0.4);
+		background-color: $translucent-white;
 		@extend %flow-in-grid;
 	}
 
@@ -70,17 +70,55 @@
 
 		.heading-section {
 			@include column-spread(4, 16, 4);
+
+			@media all and (max-width: em(600)) {
+				@include column-spread(1, 22, 1);
+				text-align: center;			
+			}
 		}
 	}
 
 	.body-article {
-		@include column-spread(4, 11, 0);
+		@include column-spread(4, 16, 4);
 
+		@media all and (max-width: em(600)) {
+			@include column-spread(1, 22, 1);
+			text-align: center;			
+		}
 	}
 
 	.meta-article {
-		@include column-spread(0, 5, 4);
-		text-align: right;
+		@include column-spread(3, 18, 3);
+		padding: em(12);
+		background-color: $translucent-white;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		z-index: 30;
+
+		p {
+			float: left;
+			margin: 0;
+		}
+
+		p + p {
+			float: right;
+		}
+
+		@media all and (max-width: em(600)) {
+			@include column-spread(1, 22, 1);
+			text-align: center;			
+		}
 	}
+
+	// .meta-article {
+	// 	@include column-spread(0, 5, 4);
+	// 	text-align: right;
+
+	// 	@media all and (max-width: em(600)) {
+	// 		@include column-spread(1, 22, 1);
+	// 		text-align: center;			
+	// 	}
+	// }
 	
 }
