@@ -22,9 +22,10 @@ require.config({
         waypoints: 'libs/waypoints',
 
         // modules
-        imagesLoadedMod: 'plugins/imagesloaded.pkgd',
+        handleWaypoints: 'modules/handle-waypoints',
 
         // Plugins
+        imagesLoadedMod: 'plugins/imagesloaded.pkgd',
         imageSeq: 'plugins/jquery.imageseq.plugin'
     }
 
@@ -38,28 +39,24 @@ require([
         'jquery',
         'base',
         'imagesLoadedMod',
-        'imageSeq',
-        'waypoints'
+        'handleWaypoints',
+        'imageSeq'
     ],
     function(
         $,
         base,
-        imagesLoaded
+        imagesLoaded,
+        handleWaypoints
     ) {
         'use strict';
 
         /* ---------- Global modules -------------------------------------------- */
         base.init();
+        handleWaypoints.init();
 
         /* ---------- Plugins --------------------------------------------------- */
         imagesLoaded('.image-seq', function() {
             console.log('images are loaded');
             $('.image-seq').JQueryImgSeqPlugin();
-        });
-
-        $('.footer').waypoint(function() {
-            $('.link-cta').toggleClass('active');
-        }, {
-            offset: 'bottom-in-view'
         });
     });
