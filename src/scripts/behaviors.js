@@ -20,7 +20,7 @@ define(['jquery'], function($) {
         $(context).find('[data-behavior]').each(function() {
             var _this = this;
             var behaviors = _this.getAttribute('data-behavior');
-            // console.log(behaviors);
+            // 
             $.each(behaviors.split(' '), function(index, behaviorName) {
                 try {
                     require([behaviorName], function(BehaviorName) {

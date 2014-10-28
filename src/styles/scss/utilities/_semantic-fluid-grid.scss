@@ -92,9 +92,3 @@ body {
     @include push($push);
     @include pull($pull);
 }
-
-%flow-in-grid {
-    display: inline;
-    float: left;
-    width: 100%;
-}

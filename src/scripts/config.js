@@ -56,7 +56,7 @@ require([
 
         /* ---------- Plugins --------------------------------------------------- */
         imagesLoaded('.image-seq', function() {
-            console.log('images are loaded');
+            
             $('.image-seq').JQueryImgSeqPlugin();
         });
     });

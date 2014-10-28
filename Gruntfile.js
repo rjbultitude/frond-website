@@ -63,14 +63,29 @@ module.exports = function(grunt) {
             ]
         },
 
+        // requirejs: {
+        //     dist: {
+        //         options: {
+        //             baseUrl: 'src/scripts',
+        //             optimize: 'uglify',
+        //             dir: 'dist/scripts',
+        //             useStrict: true,
+        //             wrap: true
+        //         }
+        //     }
+        // },
+
+        //Publish one compressed file
         requirejs: {
             dist: {
                 options: {
-                    baseUrl: 'src/scripts',
+                    mainConfigFile : 'src/scripts/config.js',
+                    baseUrl : 'src/scripts',
+                    removeCombined: false,
+                    name: 'config',
+                    out: 'dist/scripts/config.js',
                     optimize: 'uglify',
-                    dir: 'dist/scripts',
-                    useStrict: true,
-                    wrap: true
+                    findNestedDependencies: true
                 }
             }
         },
@@ -99,22 +114,10 @@ module.exports = function(grunt) {
             }
         },
 
-        webfont: {
-            icons: {
-                src: 'src/styles/img/font/*.svg',
-                dest: 'src/styles/fonts/',
-                destCss: 'src/styles/scss/',
-                options: {
-                    stylesheet: 'scss',
-                    font: 'icons'
-                }
-            }
-        },
-
         removelogging: {
             dist: {
-                src: 'src/**/*.js',
-                dist: 'dist/**/*.js'
+                //src: 'src/**/*.js',
+                dest: 'dist/**/*.js'
             }
         }
     });
@@ -130,6 +133,6 @@ module.exports = function(grunt) {
     grunt.registerTask('default', ['compass:dev', 'jshint', 'modernizr']);
     grunt.registerTask('sass', ['compass:dev']);
     grunt.registerTask('js', ['jshint']);
-    grunt.registerTask('prod', ['compass:prod', 'modernizr', 'removelogging', 'requirejs']);
+    grunt.registerTask('prod', ['compass:prod', 'modernizr', 'requirejs']);
 
 };

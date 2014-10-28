@@ -13,9 +13,26 @@
 /* -------------------------------------------------------------------------- */
 
 @import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
+@import url(http://fonts.googleapis.com/css?family=Pinyon+Script);
 
+/* -------------------------------------------------------------------------- */
+/* ---------- Font Face ----------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
 
-$font-script: 'Pinyon Script', cursive, 'Times New Roman';
+@font-face {
+    font-family: 'pinyon_scriptregular';
+    src: url('/fonts/Pinyon_Script/pinyonscript-regular-webfont.eot');
+    src: url('/fonts/Pinyon_Script/pinyonscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Pinyon_Script/pinyonscript-regular-webfont.woff2') format('woff2'),
+         url('/fonts/Pinyon_Script/pinyonscript-regular-webfont.woff') format('woff'),
+         url('/fonts/Pinyon_Script/pinyonscript-regular-webfont.ttf') format('truetype'),
+         url('/fonts/Pinyon_Script/pinyonscript-regular-webfont.svg#pinyon_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+$font-script: 'pinyon_scriptregular', cursive, 'Times New Roman';
 $font-main: 'Libre Baskerville', serif;
 
 /* -------------------------------------------------------------------------- */

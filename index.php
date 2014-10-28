@@ -1,3 +1,4 @@
+<?php include("includes/mode.php"); ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -11,8 +12,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <script type="text/javascript" src="src/scripts/modernizr.js"></script>
-    <link rel="stylesheet" href="src/styles/css/global.css">
+    <script type="text/javascript" src="/<?php echo $mode; ?>/scripts/modernizr.js"></script>
+    <link rel="stylesheet" href="/<?php echo $mode; ?>/styles/css/global.css">
 
 </head>
 <body>
@@ -81,7 +82,7 @@
         </div>
     </div>
 
-    <script data-main="src/scripts/config" src="src/scripts/libs/require.js"></script>
+    <script data-main="/<?php echo $mode; ?>/scripts/config" src="/<?php echo $mode; ?>/scripts/libs/require.js"></script>
 
 </body>
 </html>
