@@ -27,7 +27,6 @@
 	}
 
 	.header-article {
-		//@extend %flow-in-grid;
 		margin-top: em($spacing * 3);
 		margin-bottom: em($spacing * 3);
 	}
@@ -44,7 +43,6 @@
 
 		path {
 			fill: $color-blue-dark;
-			//fill: white;
 			text-shadow: 0 0 3px 4px rgba($color-blue-dark, 20%);
 
 		}
@@ -78,12 +76,11 @@
 		}
 	}
 
-	.body-article {
-		@include column-spread(4, 16, 4);
+	.wrapper-image-seq {
+		@include column-spread(3,18,3);
 
-		@media all and (max-width: em(600)) {
-			@include column-spread(1, 22, 1);
-			text-align: center;			
+		@media all and (max-width: em(800)) {
+			@include column-spread(0,24,0);		
 		}
 	}
 
@@ -92,8 +89,8 @@
 		padding: em(12);
 		background-color: $translucent-white;
 		position: absolute;
-		bottom: 0;
-		left: 0;
+		bottom: em(10);
+		left:0;
 		z-index: 30;
 
 		p {
@@ -105,20 +102,13 @@
 			float: right;
 		}
 
+		@media all and (max-width: em(800)) {
+			@include column-spread(0, 24, 0);
+		}
+
 		@media all and (max-width: em(600)) {
-			@include column-spread(1, 22, 1);
-			text-align: center;			
+			display: none;
 		}
 	}
-
-	// .meta-article {
-	// 	@include column-spread(0, 5, 4);
-	// 	text-align: right;
-
-	// 	@media all and (max-width: em(600)) {
-	// 		@include column-spread(1, 22, 1);
-	// 		text-align: center;			
-	// 	}
-	// }
-	
+		
 }

@@ -12,14 +12,6 @@
 // ---------- Image seq ----------------------------------------------------- */
 // -------------------------------------------------------------------------- */
 
-.wrapper-image-seq {
-	@include column-spread(3,18,3);
-
-	@media all and (max-width: em(800)) {
-		@include column-spread(0,24,0);		
-	}
-}
-
 .image-seq {
 	position: relative;
 	padding-bottom: 75%; /* 4:3 */

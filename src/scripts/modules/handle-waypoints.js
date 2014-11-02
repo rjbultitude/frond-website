@@ -19,30 +19,36 @@ define(['waypoints'], function() {
 	mqMin: window.matchMedia("all and (min-width: 600px)"),
 
 	initWaypoints: function initWaypointsFn() {
-		if (handleWaypoints.mqMax.matches) {
-			
-			$('.footer').waypoint(function() {
-				$('.link-cta').toggleClass('active');
-			}, {
-				offset: 'bottom-in-view'
-			});
-		}
+		console.log('smaller than 600');
+		$('.footer').waypoint(function() {
+			$('.link-cta').toggleClass('active');
+		}, {
+			offset: 'bottom-in-view'
+		});
+		//check size
+		handleWaypoints.toggleWaypoints();
 	},
 
 	toggleWaypoints: function toggleWaypointsFn() {
 		if (handleWaypoints.mqMax.matches) {
-			
+			console.log('smaller than 600');
 			$('.footer').waypoint('enable');
 		} 
 		else if(handleWaypoints.mqMin.matches) {
-			
+			console.log('bigger than 600');
 			$('.footer').waypoint('disable');
 		}
 	},
 
+	handleResize: function handleResizeFn() {
+		$(window).on('resize', function() {
+			handleWaypoints.toggleWaypoints();	
+		});
+	},
+
 	init: function inithandleWaypoints() {
 		handleWaypoints.initWaypoints();
-		handleWaypoints.toggleWaypoints();
+		handleWaypoints.handleResize();
 	}
 
 };

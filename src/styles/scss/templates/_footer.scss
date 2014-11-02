@@ -28,9 +28,14 @@
 		}
 	}
 
-	.link-sm {
+	.sm-links {
 		@include column-spread(0,9,3);
 		text-align: right;
+
+		.link-sm {
+			display: block;
+			margin-bottom: em(6);
+		}
 
 		@media all and (max-width: em(600)) {
 			@include column-spread(1,22,1);

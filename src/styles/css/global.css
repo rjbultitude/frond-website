@@ -159,6 +159,21 @@ body {
 /* -------------------------------------------------------------------------- */
 /* ---------- Clearfix ------------------------------------------------------ */
 /* -------------------------------------------------------------------------- */
+/* line 25, ../scss/utilities/_placeholders.scss */
+.wrapper-inner {
+  *zoom: 1;
+}
+/* line 27, ../scss/utilities/_placeholders.scss */
+.wrapper-inner:before, .wrapper-inner:after {
+  content: "";
+  display: table;
+  line-height: 0;
+}
+/* line 32, ../scss/utilities/_placeholders.scss */
+.wrapper-inner:after {
+  clear: both;
+}
+
 /* -------------------------------------------------------------------------- */
 /* ---------- Hidden -------------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
@@ -220,25 +235,25 @@ body {
 
 /* line 62, ../scss/generic/_typography.scss */
 .heading-section {
-  font-size: 1.5em;
-  margin-bottom: 0.75em;
+  font-size: 2.25em;
+  margin-bottom: 0.33333em;
 }
 
-/* line 67, ../scss/generic/_typography.scss */
+/* line 73, ../scss/generic/_typography.scss */
 .heading-article {
   font-size: 1.5em;
   color: white;
   text-align: center;
 }
 
-/* line 73, ../scss/generic/_typography.scss */
+/* line 79, ../scss/generic/_typography.scss */
 .heading-cta {
   color: #0e3447;
   font-size: 1.75em;
   line-height: 1.8em;
   text-align: center;
 }
-/* line 79, ../scss/generic/_typography.scss */
+/* line 85, ../scss/generic/_typography.scss */
 .heading-cta:first-letter {
   font-family: "pinyon_scriptregular", cursive, "Times New Roman";
   font-size: 2em;
@@ -248,13 +263,13 @@ body {
 /* -------------------------------------------------------------------------- */
 /* ---------- Paragraphs ---------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
-/* line 89, ../scss/generic/_typography.scss */
+/* line 95, ../scss/generic/_typography.scss */
 p {
   font-size: 0.9em;
   line-height: 1.5em;
 }
 
-/* line 94, ../scss/generic/_typography.scss */
+/* line 100, ../scss/generic/_typography.scss */
 p + p {
   margin-top: 0.75em;
 }
@@ -262,12 +277,12 @@ p + p {
 /* -------------------------------------------------------------------------- */
 /* ---------- Links --------------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
-/* line 102, ../scss/generic/_typography.scss */
+/* line 108, ../scss/generic/_typography.scss */
 a {
   color: #0e3447;
   text-decoration: none;
 }
-/* line 106, ../scss/generic/_typography.scss */
+/* line 112, ../scss/generic/_typography.scss */
 a:focus, a:hover {
   text-decoration: underline;
 }
@@ -1368,28 +1383,28 @@ body {
   margin-top: 2.25em;
   margin-bottom: 2.25em;
 }
-/* line 35, ../scss/templates/_article.scss */
+/* line 34, ../scss/templates/_article.scss */
 .article-main .heading-page {
   height: 6em;
   text-align: center;
   margin: 0.75em 0;
 }
-/* line 40, ../scss/templates/_article.scss */
+/* line 39, ../scss/templates/_article.scss */
 .article-main .heading-page svg {
   display: inline-block;
   width: 10em;
 }
-/* line 45, ../scss/templates/_article.scss */
+/* line 44, ../scss/templates/_article.scss */
 .article-main .heading-page path {
   fill: #0e3447;
   text-shadow: 0 0 3px 4px #0e3447;
 }
-/* line 52, ../scss/templates/_article.scss */
+/* line 50, ../scss/templates/_article.scss */
 .article-main .heading-page .text {
   position: absolute;
   left: -999em;
 }
-/* line 57, ../scss/templates/_article.scss */
+/* line 55, ../scss/templates/_article.scss */
 .article-main .heading-article {
   color: #0e3447;
   padding: 0.125em 0;
@@ -1398,11 +1413,11 @@ body {
   width: 12em;
   margin: 0 auto;
 }
-/* line 67, ../scss/templates/_article.scss */
+/* line 65, ../scss/templates/_article.scss */
 .article-main .article-copy {
   padding: 2.25em 0;
 }
-/* line 71, ../scss/templates/_article.scss */
+/* line 69, ../scss/templates/_article.scss */
 .article-main .article-copy .heading-section {
   display: inline;
   float: left;
@@ -1417,7 +1432,7 @@ body {
   *margin-right: 17.2119%;
 }
 @media all and (max-width: 37.5em) {
-  /* line 71, ../scss/templates/_article.scss */
+  /* line 69, ../scss/templates/_article.scss */
   .article-main .article-copy .heading-section {
     display: inline;
     float: left;
@@ -1433,38 +1448,37 @@ body {
     text-align: center;
   }
 }
-/* line 81, ../scss/templates/_article.scss */
-.article-main .body-article {
+/* line 79, ../scss/templates/_article.scss */
+.article-main .wrapper-image-seq {
   display: inline;
   float: left;
-  width: 65.47619%;
+  width: 73.80952%;
   margin-right: 0.59524%;
   margin-left: 0.59524%;
-  *width: 65.42619%;
+  *width: 73.75952%;
   *margin: 0 0.54524%;
-  margin-left: 17.2619%;
-  *margin-left: 17.2119%;
-  margin-right: 17.2619%;
-  *margin-right: 17.2119%;
+  margin-left: 13.09524%;
+  *margin-left: 13.04524%;
+  margin-right: 13.09524%;
+  *margin-right: 13.04524%;
 }
-@media all and (max-width: 37.5em) {
-  /* line 81, ../scss/templates/_article.scss */
-  .article-main .body-article {
+@media all and (max-width: 50em) {
+  /* line 79, ../scss/templates/_article.scss */
+  .article-main .wrapper-image-seq {
     display: inline;
     float: left;
-    width: 90.47619%;
+    width: 98.80952%;
     margin-right: 0.59524%;
     margin-left: 0.59524%;
-    *width: 90.42619%;
+    *width: 98.75952%;
     *margin: 0 0.54524%;
-    margin-left: 4.7619%;
-    *margin-left: 4.7119%;
-    margin-right: 4.7619%;
-    *margin-right: 4.7119%;
-    text-align: center;
+    margin-left: 0.59524%;
+    *margin-left: 0.54524%;
+    margin-right: 0.59524%;
+    *margin-right: 0.54524%;
   }
 }
-/* line 90, ../scss/templates/_article.scss */
+/* line 87, ../scss/templates/_article.scss */
 .article-main .meta-article {
   display: inline;
   float: left;
@@ -1480,39 +1494,44 @@ body {
   padding: 0.75em;
   background-color: rgba(255, 255, 255, 0.4);
   position: absolute;
-  bottom: 0;
+  bottom: 0.625em;
   left: 0;
   z-index: 30;
 }
-/* line 99, ../scss/templates/_article.scss */
+/* line 96, ../scss/templates/_article.scss */
 .article-main .meta-article p {
   float: left;
   margin: 0;
 }
-/* line 104, ../scss/templates/_article.scss */
+/* line 101, ../scss/templates/_article.scss */
 .article-main .meta-article p + p {
   float: right;
 }
-@media all and (max-width: 37.5em) {
-  /* line 90, ../scss/templates/_article.scss */
+@media all and (max-width: 50em) {
+  /* line 87, ../scss/templates/_article.scss */
   .article-main .meta-article {
     display: inline;
     float: left;
-    width: 90.47619%;
+    width: 98.80952%;
     margin-right: 0.59524%;
     margin-left: 0.59524%;
-    *width: 90.42619%;
+    *width: 98.75952%;
     *margin: 0 0.54524%;
-    margin-left: 4.7619%;
-    *margin-left: 4.7119%;
-    margin-right: 4.7619%;
-    *margin-right: 4.7119%;
-    text-align: center;
+    margin-left: 0.59524%;
+    *margin-left: 0.54524%;
+    margin-right: 0.59524%;
+    *margin-right: 0.54524%;
+  }
+}
+@media all and (max-width: 37.5em) {
+  /* line 87, ../scss/templates/_article.scss */
+  .article-main .meta-article {
+    display: none;
   }
 }
 
 /**
-* Layout -- part of the Generic Namespace
+* Aside CTA -- part of the Generic Namespace
 *
 * $author       Richard Bultitude
 * $email        richard.bultitude@gmail.com
@@ -1675,44 +1694,13 @@ body {
 * $version      1.0
 */
 /* line 15, ../scss/templates/_image-seq.scss */
-.wrapper-image-seq {
-  display: inline;
-  float: left;
-  width: 73.80952%;
-  margin-right: 0.59524%;
-  margin-left: 0.59524%;
-  *width: 73.75952%;
-  *margin: 0 0.54524%;
-  margin-left: 13.09524%;
-  *margin-left: 13.04524%;
-  margin-right: 13.09524%;
-  *margin-right: 13.04524%;
-}
-@media all and (max-width: 50em) {
-  /* line 15, ../scss/templates/_image-seq.scss */
-  .wrapper-image-seq {
-    display: inline;
-    float: left;
-    width: 98.80952%;
-    margin-right: 0.59524%;
-    margin-left: 0.59524%;
-    *width: 98.75952%;
-    *margin: 0 0.54524%;
-    margin-left: 0.59524%;
-    *margin-left: 0.54524%;
-    margin-right: 0.59524%;
-    *margin-right: 0.54524%;
-  }
-}
-
-/* line 23, ../scss/templates/_image-seq.scss */
 .image-seq {
   position: relative;
   padding-bottom: 75%;
   /* 4:3 */
   height: 0;
 }
-/* line 28, ../scss/templates/_image-seq.scss */
+/* line 20, ../scss/templates/_image-seq.scss */
 .image-seq img {
   position: absolute;
   top: 0;
@@ -1721,35 +1709,35 @@ body {
   height: 100%;
   opacity: 0;
 }
-/* line 40, ../scss/templates/_image-seq.scss */
+/* line 32, ../scss/templates/_image-seq.scss */
 .image-seq img:nth-child(1n) {
   z-index: 1;
 }
-/* line 40, ../scss/templates/_image-seq.scss */
+/* line 32, ../scss/templates/_image-seq.scss */
 .image-seq img:nth-child(2n) {
   z-index: 2;
 }
-/* line 40, ../scss/templates/_image-seq.scss */
+/* line 32, ../scss/templates/_image-seq.scss */
 .image-seq img:nth-child(3n) {
   z-index: 3;
 }
-/* line 40, ../scss/templates/_image-seq.scss */
+/* line 32, ../scss/templates/_image-seq.scss */
 .image-seq img:nth-child(4n) {
   z-index: 4;
 }
-/* line 40, ../scss/templates/_image-seq.scss */
+/* line 32, ../scss/templates/_image-seq.scss */
 .image-seq img:nth-child(5n) {
   z-index: 5;
 }
-/* line 40, ../scss/templates/_image-seq.scss */
+/* line 32, ../scss/templates/_image-seq.scss */
 .image-seq img:nth-child(6n) {
   z-index: 6;
 }
-/* line 40, ../scss/templates/_image-seq.scss */
+/* line 32, ../scss/templates/_image-seq.scss */
 .image-seq img:nth-child(7n) {
   z-index: 7;
 }
-/* line 45, ../scss/templates/_image-seq.scss */
+/* line 37, ../scss/templates/_image-seq.scss */
 .image-seq img.active,
 .image-seq img:first-child {
   opacity: 1;
@@ -1758,7 +1746,7 @@ body {
   transition-delay: 0;
   transition-property: opacity;
 }
-/* line 51, ../scss/templates/_image-seq.scss */
+/* line 43, ../scss/templates/_image-seq.scss */
 .image-seq img.inactive {
   opacity: 0;
 }
@@ -1811,7 +1799,7 @@ body {
   }
 }
 /* line 31, ../scss/templates/_footer.scss */
-.footer .link-sm {
+.footer .sm-links {
   display: inline;
   float: left;
   width: 36.30952%;
@@ -1825,9 +1813,14 @@ body {
   *margin-right: 13.04524%;
   text-align: right;
 }
+/* line 35, ../scss/templates/_footer.scss */
+.footer .sm-links .link-sm {
+  display: block;
+  margin-bottom: 0.375em;
+}
 @media all and (max-width: 37.5em) {
   /* line 31, ../scss/templates/_footer.scss */
-  .footer .link-sm {
+  .footer .sm-links {
     display: inline;
     float: left;
     width: 90.47619%;
@@ -1840,5 +1833,82 @@ body {
     margin-right: 4.7619%;
     *margin-right: 4.7119%;
     text-align: center;
+  }
+}
+
+/**
+* Supplentary -- part of the Generic Namespace
+*
+* $author       Richard Bultitude
+* $email        richard.bultitude@gmail.com
+* $url          http://www.frondmusic.com/
+* $copyright    Copyright (c) 2014, frondmusic.com. All rights reserved.
+* $version      1.0
+*/
+/* line 11, ../scss/templates/_supplementary.scss */
+.supplementary {
+  margin-bottom: 2.25em;
+}
+
+/* line 3, ../scss/templates/_block-content.scss */
+.block-content .block-body {
+  padding-bottom: 2.25em;
+  display: inline;
+  float: left;
+  width: 65.47619%;
+  margin-right: 0.59524%;
+  margin-left: 0.59524%;
+  *width: 65.42619%;
+  *margin: 0 0.54524%;
+  margin-left: 17.2619%;
+  *margin-left: 17.2119%;
+  margin-right: 17.2619%;
+  *margin-right: 17.2119%;
+}
+@media all and (max-width: 37.5em) {
+  /* line 3, ../scss/templates/_block-content.scss */
+  .block-content .block-body {
+    display: inline;
+    float: left;
+    width: 90.47619%;
+    margin-right: 0.59524%;
+    margin-left: 0.59524%;
+    *width: 90.42619%;
+    *margin: 0 0.54524%;
+    margin-left: 4.7619%;
+    *margin-left: 4.7119%;
+    margin-right: 4.7619%;
+    *margin-right: 4.7119%;
+    text-align: center;
+  }
+}
+/* line 13, ../scss/templates/_block-content.scss */
+.block-content img {
+  display: inline;
+  float: left;
+  width: 73.80952%;
+  margin-right: 0.59524%;
+  margin-left: 0.59524%;
+  *width: 73.75952%;
+  *margin: 0 0.54524%;
+  margin-left: 13.09524%;
+  *margin-left: 13.04524%;
+  margin-right: 13.09524%;
+  *margin-right: 13.04524%;
+}
+@media all and (max-width: 50em) {
+  /* line 13, ../scss/templates/_block-content.scss */
+  .block-content img {
+    display: inline;
+    float: left;
+    width: 98.80952%;
+    margin-right: 0.59524%;
+    margin-left: 0.59524%;
+    *width: 98.75952%;
+    *margin: 0 0.54524%;
+    margin-left: 0.59524%;
+    *margin-left: 0.54524%;
+    margin-right: 0.59524%;
+    *margin-right: 0.54524%;
   }
 }

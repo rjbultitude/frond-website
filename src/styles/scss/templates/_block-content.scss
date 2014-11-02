@@ -1,0 +1,20 @@
+.block-content {
+
+	.block-body {
+		padding-bottom: em($spacing * 3);
+		@include column-spread(4, 16, 4);
+
+		@media all and (max-width: em(600)) {
+			@include column-spread(1, 22, 1);
+			text-align: center;			
+		}
+	}
+
+	img {
+		@include column-spread(3, 18, 3);
+
+		@media all and (max-width: em(800)) {
+			@include column-spread(0, 24, 0);
+		}
+	}
+}

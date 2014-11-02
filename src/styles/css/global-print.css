@@ -143,6 +143,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* -------------------------------------------------------------------------- */
 /* ---------- Clearfix ------------------------------------------------------ */
 /* -------------------------------------------------------------------------- */
+/* line 25, ../scss/utilities/_placeholders.scss */
+.wrapper-inner {
+  *zoom: 1;
+}
+/* line 27, ../scss/utilities/_placeholders.scss */
+.wrapper-inner:before, .wrapper-inner:after {
+  content: "";
+  display: table;
+  line-height: 0;
+}
+/* line 32, ../scss/utilities/_placeholders.scss */
+.wrapper-inner:after {
+  clear: both;
+}
+
 /* -------------------------------------------------------------------------- */
 /* ---------- Hidden -------------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
@@ -201,25 +216,25 @@ body {
 
 /* line 62, ../scss/generic/_typography.scss */
 .heading-section {
-  font-size: 1.5em;
-  margin-bottom: 0.75em;
+  font-size: 2.25em;
+  margin-bottom: 0.33333em;
 }
 
-/* line 67, ../scss/generic/_typography.scss */
+/* line 73, ../scss/generic/_typography.scss */
 .heading-article {
   font-size: 1.5em;
   color: white;
   text-align: center;
 }
 
-/* line 73, ../scss/generic/_typography.scss */
+/* line 79, ../scss/generic/_typography.scss */
 .heading-cta {
   color: #0e3447;
   font-size: 1.75em;
   line-height: 1.8em;
   text-align: center;
 }
-/* line 79, ../scss/generic/_typography.scss */
+/* line 85, ../scss/generic/_typography.scss */
 .heading-cta:first-letter {
   font-family: "pinyon_scriptregular", cursive, "Times New Roman";
   font-size: 2em;
@@ -229,13 +244,13 @@ body {
 /* -------------------------------------------------------------------------- */
 /* ---------- Paragraphs ---------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
-/* line 89, ../scss/generic/_typography.scss */
+/* line 95, ../scss/generic/_typography.scss */
 p {
   font-size: 0.9em;
   line-height: 1.5em;
 }
 
-/* line 94, ../scss/generic/_typography.scss */
+/* line 100, ../scss/generic/_typography.scss */
 p + p {
   margin-top: 0.75em;
 }
@@ -243,12 +258,12 @@ p + p {
 /* -------------------------------------------------------------------------- */
 /* ---------- Links --------------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
-/* line 102, ../scss/generic/_typography.scss */
+/* line 108, ../scss/generic/_typography.scss */
 a {
   color: #0e3447;
   text-decoration: none;
 }
-/* line 106, ../scss/generic/_typography.scss */
+/* line 112, ../scss/generic/_typography.scss */
 a:focus, a:hover {
   text-decoration: underline;
 }

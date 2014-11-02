@@ -1,11 +1,11 @@
 /**
- * Jquery Plugin: Image Sequence 1.00
+ * Jquery Plugin: Image Sequence
  *
  * $author       Richard Bultitude
  * $email        richard.bultitude@gmail.com
  * $url          http://www.frondmusic.com/
- * $copyright    Copyright (c) 2013, frondmusic.com. All rights reserved.
- * $version      1.0
+ * $copyright    Copyright (c) 2014, frondmusic.com. All rights reserved.
+ * $version      1.1
  *
  * $notes        Notes
  */
@@ -30,17 +30,6 @@ define(['jquery'], function($){
                 var $wrapper = $(this);
                 var numImages = $('img', $wrapper).length;
 
-                function loadImages () {
-                    if (settings.preload && settings.seqDir.length > 0 && fileExt.length > 0) {
-                        $.ajax({
-                            url: settings.seqDir,
-                            success: function(data) {
-                                //
-                            }
-                        });
-                    }
-                }
-
                 function setImages() {
                     $('img', $wrapper).each(function(i) {
                         $(this).addClass('item-' + i);
@@ -50,7 +39,7 @@ define(['jquery'], function($){
                 function hideImages() {
                     $('img:first', $wrapper).addClass('active').removeClass('inactive');
                     $('img:not(:first)', $wrapper).each(function(i) {
-                        $(this).addClass('inactive');
+                        $(this).removeClass('active').addClass('inactive');
                     });
 
                     simpleFade();
