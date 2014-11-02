@@ -1,7 +1,7 @@
 .block-content {
 
 	.block-body {
-		padding-bottom: em($spacing * 3);
+		padding-bottom: em($spacing * 2);
 		@include column-spread(4, 16, 4);
 
 		@media all and (max-width: em(600)) {

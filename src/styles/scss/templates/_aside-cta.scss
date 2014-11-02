@@ -23,7 +23,7 @@
 		border-radius: em(4);
 
 		@media all and (max-width: em(600)) {
-			@include column-spread(6,12,6);
+			@include column-spread(4,16,4);
 			margin-bottom: em($spacing)
 		}
 	}
@@ -32,7 +32,7 @@
 		@include column-spread(3,6,0);
 
 		@media all and (max-width: em(600)) {
-			@include column-spread(6,12,6);
+			@include column-spread(4,16,4);
 			margin-bottom: em($spacing)
 		}
 	}
@@ -41,7 +41,7 @@
 		@include column-spread(0,6,3);
 
 		@media all and (max-width: em(600)) {
-			@include column-spread(6,12,6);
+			@include column-spread(4,16,4);
 			margin-bottom: em($spacing)
 		}
 	}
@@ -49,7 +49,7 @@
 	.link-cta {
 		display: block;
 		text-decoration: none;
-		min-height: 8em;
+		height: 8em;
 		padding: em(38) 0 0 0;
 		@include standard-transition-padding(2s, 0, $cubic-bezier-fast-in);
 		overflow: hidden;

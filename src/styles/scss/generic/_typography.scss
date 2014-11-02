@@ -63,11 +63,9 @@ body {
     font-size: em(36);
     margin-bottom: em(12, 36);
 
-    // &:first-letter {
-    //     font-family: $font-script;
-    //     font-size: 2em;
-    //     transform: translateY(em(8));
-    // }
+    @media all and (max-width: em(400)) {
+        font-size: em(24);
+    }
 }
 
 .heading-article {

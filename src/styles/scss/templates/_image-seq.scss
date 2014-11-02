@@ -14,7 +14,7 @@
 
 .image-seq {
 	position: relative;
-	padding-bottom: 75%; /* 4:3 */
+	padding-bottom: 60%; /* 4:3 */
 	height: 0;
 
 	img {
@@ -42,5 +42,6 @@
 
     img.inactive {
     	opacity: 0;
+    	@include standard-transition-opacity;
     }
 }
