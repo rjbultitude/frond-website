@@ -20,9 +20,8 @@ define(['jquery'], function($){
 
             //Settings
             var settings = $.extend({
-                preload : false,
-                seqDir  : '',
-                fileExt : ''
+                duration: 3000, 
+                preload : false
             }, options);
 
             return this.each(function () {
@@ -59,12 +58,12 @@ define(['jquery'], function($){
                                 el.removeClass('inactive').addClass('active');
                                 setTimeout(function() {
                                     hideImages();
-                                },3000);
+                                },settings.duration);
                             } 
                             else {
                                 el.removeClass('inactive').addClass('active');
                             }
-                        }, i * 3000);
+                        }, i * settings.duration);
                     });
                 }
 

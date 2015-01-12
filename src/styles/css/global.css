@@ -150,7 +150,7 @@ body {
 /* ---------- Grid fix ------------------------------------------------------ */
 /* -------------------------------------------------------------------------- */
 /* line 15, ../scss/utilities/_placeholders.scss */
-#maincontent, .article-main, .article-main .figure-article, .article-main .article-copy, .aside-cta, .footer {
+#maincontent, .new-content-feature, .article-main, .article-main .figure-article, .article-main .article-copy, .aside-cta, .footer {
   display: inline;
   float: left;
   width: 100%;
@@ -344,6 +344,31 @@ img {
 * $copyright    Copyright (c) 2014, frondmusic.com. All rights reserved.
 * $version      1.0
 */
+/**
+* Video -- part of the Generic Namespace
+*
+* $author       Richard Bultitude
+* $email        richard.bultitude@gmail.com
+* $url          http://www.frondmusic.com/
+* $copyright    Copyright (c) 2014, frondmusic.com. All rights reserved.
+* $version      1.0
+*/
+/* line 11, ../scss/generic/_video.scss */
+.wrapper-video {
+  width: 100%;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+/* line 17, ../scss/generic/_video.scss */
+.wrapper-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /* -------------------------------------------------------------------------- */
 /* ---------- Interactions ---------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
@@ -1361,6 +1386,39 @@ body {
 .wrapper-inner {
   max-width: 63em;
   margin: 0 auto;
+}
+
+/* line 37, ../scss/templates/_layout.scss */
+.new-content-feature {
+  margin-bottom: 2.75em;
+}
+/* line 41, ../scss/templates/_layout.scss */
+.new-content-feature .heading-section {
+  display: inline;
+  float: left;
+  width: 65.47619%;
+  margin-right: 0.59524%;
+  margin-left: 0.59524%;
+  *width: 65.42619%;
+  *margin: 0 0.54524%;
+  margin-left: 17.2619%;
+  *margin-left: 17.2119%;
+  margin-right: 17.2619%;
+  *margin-right: 17.2119%;
+}
+/* line 45, ../scss/templates/_layout.scss */
+.new-content-feature .content {
+  display: inline;
+  float: left;
+  width: 73.80952%;
+  margin-right: 0.59524%;
+  margin-left: 0.59524%;
+  *width: 73.75952%;
+  *margin: 0 0.54524%;
+  margin-left: 13.09524%;
+  *margin-left: 13.04524%;
+  margin-right: 13.09524%;
+  *margin-right: 13.04524%;
 }
 
 /**

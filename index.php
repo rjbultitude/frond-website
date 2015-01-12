@@ -7,9 +7,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
+    <title>Frond | The Second Continent</title>
+    <meta name="description" content="The Second Continent is the debut album from producer and phonographer Frond.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" />
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <script type="text/javascript" src="/<?php echo $mode; ?>/scripts/modernizr.js"></script>
@@ -33,6 +34,7 @@
                             <img src="/images/tape-seq/tape-package-4.jpg" alt="" />
                             <img src="/images/tape-seq/tape-package-5.jpg" alt="" />
                             <img src="/images/tape-seq/tape-package-6.jpg" alt="" />
+                            <img src="/images/tape-seq/tape-package-7.jpg" alt="" />
                         </div>
                     </div>
                     <div class="meta-article">
@@ -69,25 +71,36 @@
         <aside class="aside-cta">
             <div class="wrapper-inner">
                 <section class="section-cta">
-                    <a href="http://www.bandcamp.com/escrec" class="link-cta">
+                    <a href="https://escrec.bandcamp.com/album/the-second-continent" class="link-cta" target="_blank">
                         <h2 class="heading-cta">Buy</h2>
                         <span class="text-aux">Now</span>
                     </a>
                 </section>
                 <section class="section-cta">
-                    <a href="http://www.bandcamp.com/escrec" class="link-cta">
-                        <h2 class="heading-cta">Listen</h2>
-                        <span class="text-aux">Now</span>
+                    <a href="http://www.escrec.com/5676" class="link-cta" target="_blank">
+                        <h2 class="heading-cta">Read</h2>
+                        <span class="text-aux">More</span>
                     </a>
                 </section>
                 <section class="section-cta">
-                    <a href="http://www.bandcamp.com/escrec" class="link-cta">
-                        <h2 class="heading-cta">Read</h2>
-                        <span class="text-aux">Now</span>
+                    <a href="https://soundcloud.com/frond" class="link-cta" target="_blank">
+                        <h2 class="heading-cta">Follow</h2>
+                        <span class="text-aux">On SC</span>
                     </a>
                 </section>
             </div>
         </aside>
+
+		<section class="new-content-feature">
+			<div class="wrapper-inner">
+				<h3 class="heading-section">Latest video</h3>
+				<div class="content">
+					<div class="wrapper-video">
+						<iframe width="560" height="315" src="//www.youtube.com/embed/PgTDXx_jLcA" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+        </section>
     </div>
     <div class="footer">
         <div class="wrapper-inner">

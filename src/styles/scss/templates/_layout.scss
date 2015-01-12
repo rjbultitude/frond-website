@@ -33,3 +33,16 @@ body {
 #maincontent {
 	@extend %flow-in-grid;
 }
+
+.new-content-feature {
+	@extend %flow-in-grid;
+	margin-bottom: em(44);
+
+	.heading-section {
+		@include column-spread(4, 16, 4);
+	}
+
+	.content {
+		@include column-spread(3,18,3);
+	}
+}
